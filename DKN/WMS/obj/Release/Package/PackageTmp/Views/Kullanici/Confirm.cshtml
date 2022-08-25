@@ -1,0 +1,29 @@
+﻿@{ ViewBag.Title = "Ödeme Sonucu";
+    Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>  @Html.Partial("_Message")</h1>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        @if (@ViewBag.ConfMessageSuccess != null)
+        {
+<div class="alert alert-info alert-dismissible col-lg-offset-3  col-md-offset-3 col-sm-offset-3 col-md-6 col-sm-6 col-xs-12 col-lg-6">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+    <h4><i class="icon fa fa-info"></i> ÖDEME SONUCU</h4>
+    @ViewBag.ConfMessageSuccess
+</div> }
+            else
+            {
+<div class="alert alert-danger alert-dismissible col-lg-offset-3  col-md-offset-3 col-sm-offset-3 col-md-6 col-sm-6 col-xs-12 col-lg-6">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+    <h4><i class="icon fa fa-times"></i> ÖDEME SONUCU</h4>
+    @ViewBag.ConfMessage
+</div>}
+    </section>
+    <!-- /.content -->
+
+</div>
+

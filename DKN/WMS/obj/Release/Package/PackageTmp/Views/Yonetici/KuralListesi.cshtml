@@ -1,0 +1,164 @@
+﻿@model IEnumerable<DKN.Models.DENETIM_KURALLARI>
+
+@{ ViewBag.Title = "Denetim Kuralları";
+    Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+<div class="content-wrapper">
+    <section class="content-header">
+        <h1>  @Html.Partial("_Message")</h1>
+    </section>
+    <section class="content">
+        <div class="row" style="margin-top:10px;">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <center>
+                    <div class="alert alert-info alert-dismissible" hidden id="guncellemeMessage" style="width:400px;">
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                        <h4><i class="icon fa fa-info"></i>  Güncelleme İşlemi Başarılı.</h4>
+
+                    </div>
+                </center>
+                <div class="box box-primary">
+                    <div class="box-header">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <h4><b>Denetim Kuralları</b></h4>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 col-md-push-4">
+                                <label>
+                                    @* @Html.ActionLink("Yeni Kullanıcı Ekle", "Create", new { @class = "btn btn-default btn-flat" })*@
+                                    <a href="/Yonetici/CreateDenetimKurallari" class="btn btn-success btn-flat fa fa-plus"> Ekle</a>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="">
+                        <table id="kuralTbl" class="table table-bordered table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th style="width:30px">S.NO</th>
+                                    <th>KOD</th>
+                                    <th width="20%">AÇIKLAMA</th>
+                                    <th width="50%">MÜŞTERİ AÇIKLAMA</th>
+                                    <th>MÜŞTERİ AÇIKLAMA2</th>
+                                    <th>MEVZUAT</th>
+                                    <th>KAPSAM</th>
+                                    <th>ALT KAPSAM</th>
+                                    <th>AKTİF/PASİF</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{int RowNo = 0;}
+                                @foreach (var item in Model)
+                                {
+                                    var degisken = "";
+                                    if (item.SQL_IFADE.Equals("0"))
+                                    {
+                                        degisken = "background-color:indianred";
+                                    }
+                                    else
+                                    {
+                                        degisken = "";
+                                    }
+                    <tr style="@degisken">
+                        <td> @{RowNo++;} @RowNo</td>
+                        <td> @Html.ActionLink(item.KOD, "EditDenetimKurallari", new { id = item.LOGICALREF.ToString() })</td>
+                        <td width="30%"> @Html.DisplayFor(modelItem => item.ACIKLAMA)</td>
+                        <td width="50%"> @Html.DisplayFor(modelItem => item.MUSTERI_ACIKLAMA)</td>
+                        <td> @Html.DisplayFor(modelItem => item.MUSTERI_ACIKLAMA2)</td>
+                        <td> @Html.DisplayFor(modelItem => item.MEVZUAT)</td>
+                        <td>
+                            @foreach (var kapsam in item.kapsamList)
+                            {<span>@kapsam.KISA_AD,</span>}
+                        </td>
+                        <td>
+                            @foreach (var altKapsam in item.altKapsamList)
+                            {<span>@altKapsam.KISA_AD,</span>}
+                        </td>
+                        <td>
+                            @Html.CheckBoxFor(modelItem => item.kullanimDurumuBool, new { @class = "ConfirmUpdate", id = item.LOGICALREF, data_url = Url.Action("GuncelleDenetimKuralDurum", "Yonetici") })
+                        </td>
+                        <td>
+                            @Html.ActionLink("SQL", "SqlSifreModal", new { denetimKuraliLogicalref = item.LOGICALREF, }, new { @class = "btn btn-danger btn-flat pull-right" })
+                        </td>
+                    </tr>}
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.box-body -->
+                </div>
+                <!-- /.box -->
+            </div>
+            <!-- /.col -->
+        </div>
+    </section>
+    <div class="modal modal-warning fade" id="modal-warning">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">İşlem Onayı</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Kaydın Durumunu Değiştirmek İstediğinizden Emin misiniz?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" onclick="location.reload(true)" class="btn btn-outline pull-left fa fa-close" data-dismiss="modal"> Vazgeç</button>
+                    <button type="button" onclick="Update()" class="btn btn-outline fa fa-edit">Güncelle</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <input type="hidden" id="hiddenId" />
+</div>
+@section Scripts
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#kuralTbl').DataTable({
+                "scrollX": true
+            });
+        });
+        $(function () {
+            $('.ConfirmUpdate').change(function () {
+                var self = $(this);
+                var id = self.attr('id');
+                $("#hiddenId").val(id);
+                $("#modal-warning").modal('show');
+
+
+            });
+        });
+
+        function Update() {
+            var id = $("#hiddenId").val();
+            $.ajax({
+                type: "GET",
+                url: "/Yonetici/GuncelleDenetimKuralDurum",
+                data: {
+                    id: id
+                },
+                success: function (result) {
+                    $("#modal-warning").modal("hide");
+                    $('#guncellemeMessage').show();
+                    setTimeout(function () {
+                        $("#guncellemeMessage").fadeTo(2000, 500).slideUp(500, function () {
+                            $("#guncellemeMessage").hide();
+                        });
+                    }, 3000);//2000=2 seconds
+                }
+
+            })
+
+        }</script>
+
+}
+
+
+
+

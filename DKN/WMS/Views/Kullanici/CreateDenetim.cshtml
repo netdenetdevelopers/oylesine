@@ -1,0 +1,599 @@
+﻿@model DKN.Models.DENETIM
+@using MvcCheckBoxList.Model
+
+@{ ViewBag.Title = "Denetim Ekle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var firmaId = Session["firmaId"].ToString(); }
+
+
+<div class="content-wrapper" id="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1> @Html.Partial("_Message")</h1>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-7 col-lg-7 col-md-offset-2 col-lg-offset-2">
+                <!-- general form elements -->
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+                        <h3 class="box-title fa fa-plus-circle"><b> Denetim Ekle</b></h3>
+
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <h5>VKN/TCKN : <span class="badge bg-aqua" style="font-size:large">@Session["firmaTcknVkn"].ToString()</span></h5>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <h5>UNVAN : <span class="badge bg-aqua" style="font-size:large">@Session["firmaUnvan"].ToString()</span> </h5>
+                    </div>
+
+                    <!-- /.box-header -->
+                    <!-- form start -->
+                    @using (Html.BeginForm("CreateDenetim", "Kullanici", FormMethod.Post))
+                    {
+                @Html.AntiForgeryToken()
+                                <div class="box-body">
+                                    <div class="form-group">
+                                        <label for="email">Ad</label>
+                                        @Html.TextBoxFor(m => m.AD, new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.AD, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Yıl</label>
+                                        @Html.DropDownListFor(m => m.YIL_LOGICALREF, new SelectList(Model.yilList, "LOGICALREF", "YIL_AD"), new { @class = "form-control" })
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 col-sm-12 col-lg-12">
+                                            <hr />
+                                            <div class="form-group">
+                                                <div class="row">
+                                                    <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
+                                                        <div class="box box-danger box-solid">
+                                                            <div class="box-header with-border">
+                                                                <input type="checkbox" id="gvd1" name="gvd" onclick="handleClick(this,'gvd');" />
+                                                                @*<input type="checkbox" id="vd1" name="vd" onclick="handleClick('@Model.kapsamList.First(m => m.KISA_AD.Equals("GVD")).KONTOR', this,'vd');" />*@
+                                                                <div class="box-tools pull-right">
+                                                                    <center><h3 class="box-title" style="margin-top:8px;"> @Model.kapsamList.First(m => m.KISA_AD.Equals("GVD")).AD (GVD)</h3></center>
+                                                                </div>
+                                                                <!-- /.box-tools -->
+                                                            </div>
+                                                            <!-- /.box-header -->
+                                                            <div class="box-body">
+                                                                @*Vergi denetimini uygulayarak, vergi risklerinizi azaltabilir, vergi avantajlarını arttırabilir, vergi kanunlarıyla uyumluluğunu denetleyebilirsiniz.*@
+                                                                @Model.kapsamList.First(m => m.KISA_AD.Equals("GVD")).ACIKLAMA
+                                                            </div>
+
+                                                            <div class="form-group">
+                                                                @* <label for="donemTur">Dönem</label>*@
+                                                                @*@Html.DropDownListFor(m => m.DONEM_AY_LOGICALREF, new SelectList(Model.donemList, "LOGICALREF", "ACIKLAMA"), new { @class = "form-control select-add-placeholder-donem", @disabled = "disabled", @id = "ddDonem", @onchange = "toggleDivDisplayDonem()" })*@
+                                                                @Html.DropDownListFor(m => m.DONEM_AY_LOGICALREF, new SelectList(Model.donemList, "LOGICALREF", "ACIKLAMA"), new { @class = "form-control select-add-placeholder-donem", @disabled = "disabled", @id = "ddDonem" })
+                                                            </div>
+                                                            <!-- /.box-body -->
+                                                            @*<div class="small-box-footer" style="background-color:lightgrey;">
+                                                    <center><h3>@Model.kapsamList.First(m => m.KISA_AD.Equals("VD")).KONTOR Kontör</h3></center>
+                                                </div>*@
+                                                        </div>
+                                                        <!-- /.box -->
+                                                    </div>
+                                                    <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
+                                                        <div class="box box-primary box-solid">
+                                                            <div class="box-header with-border">
+                                                                <input type="checkbox" id="avd1" name="avd" onclick="handleClick(this,'avd');" />
+                                                                @*<input type="checkbox" id="md1" name="md" onclick="handleClick('@Model.kapsamList.First(m => m.KISA_AD.Equals("AVD")).KONTOR', this,'md');" />*@
+                                                                <div class="box-tools pull-right">
+                                                                    <center><h3 class="box-title" style="margin-top:8px;"> @Model.kapsamList.First(m => m.KISA_AD.Equals("AVD")).AD (AVD)</h3></center>
+                                                                </div>
+                                                                <!-- /.box-tools -->
+                                                            </div>
+                                                            <!-- /.box-header -->
+                                                            <div class="box-body">
+                                                                @*Değişen KDV stopaj oranlarının doğru uygulanıp uygulanmadığı, mevzuat değişimlerine uyumunu kontrol edin.*@
+                                                                @Model.kapsamList.First(m => m.KISA_AD.Equals("AVD")).ACIKLAMA
+                                                                <br /> <br />
+                                                            </div>
+                                                            <div class="form-group">
+                                                                @* <label for="donemTur">Ay</label>*@
+                                                                @*@Html.DropDownListFor(m => m.DONEM_AY_LOGICALREF, new SelectList(Model.ayList, "LOGICALREF", "ACIKLAMA"), new { @class = "form-control select-add-placeholder-ay", @disabled = "disabled", @id = "ddAy", @onchange = "toggleDivDisplay()" })*@
+                                                                @Html.DropDownListFor(m => m.DONEM_AY_LOGICALREF, new SelectList(Model.ayList, "LOGICALREF", "ACIKLAMA"), new { @class = "form-control select-add-placeholder-ay", @disabled = "disabled", @id = "ddAy" })
+                                                            </div>
+                                                            @*<div class="small-box-footer" style="background-color:lightgrey;">
+                                                    <center><h3>@Model.kapsamList.First(m => m.KISA_AD.Equals("MD")).KONTOR Kontör</h3></center>
+                                                </div>*@
+                                                            <!-- /.box-body -->
+                                                        </div>
+                                                        <!-- /.box -->
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6" id="divHd">
+                                                        <div class="box box-default box-solid">
+                                                            <div class="box-header with-border">
+                                                                <input type="checkbox" id="hd1" name="hd" onclick="handleClick(this,'hd');" />
+                                                                @*<input type="checkbox" id="hd1" name="hd" onclick="handleClick('@Model.kapsamList.First(m => m.KISA_AD.Equals("HD")).KONTOR', this,'hd');" />*@
+                                                                <div class="box-tools pull-right">
+                                                                    <center><h3 class="box-title" style="margin-top:8px;"> @Model.kapsamList.First(m => m.KISA_AD.Equals("HD")).AD (HD)</h3></center>
+                                                                </div>
+                                                                <!-- /.box-tools -->
+                                                            </div>
+                                                            <!-- /.box-header -->
+                                                            <div class="box-body">
+                                                                @*Finansal tablolar üzerinde çeşitli kademedeki kişiler tarafından yapılan muhasebe hilelerini denetlemeye yönelik özel bir denetim alanıdır.*@
+                                                                @Model.kapsamList.First(m => m.KISA_AD.Equals("HD")).ACIKLAMA
+                                                            </div>
+                                                            @*<div class="small-box-footer" style="background-color:lightgray;">
+                                                    <center><h3>@Model.kapsamList.First(m => m.KISA_AD.Equals("HD")).KONTOR Kontör</h3></center>
+                                                </div>*@
+                                                            <!-- /.box-body -->
+                                                        </div>
+                                                        <!-- /.box -->
+                                                    </div>
+                                                    <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6" id="divPma">
+                                                        <div class="box box-success box-solid">
+                                                            <div class="box-header with-border">
+                                                                <input type="checkbox" id="pma1" name="pma" onclick="handleClick(this,'pma');" />
+                                                                @*<input type="checkbox" name="pma" onclick="handleClick('@Model.kapsamList.First(m => m.KISA_AD.Equals("PD")).KONTOR', this,'pma');" />*@
+                                                                <div class="box-tools pull-right">
+                                                                    <center><h3 class="box-title" style="margin-top:8px;"> @Model.kapsamList.First(m => m.KISA_AD.Equals("PD")).AD (PD)</h3></center>
+                                                                </div>
+                                                                <!-- /.box-tools -->
+                                                            </div>
+                                                            <!-- /.box-header -->
+                                                            <div class="box-body">
+                                                                @*Aylık, üç aylık veya yıllık dönemler itibariyle işletmenin performansını ölçen, mali analizler yapan bir uygulamadır.*@
+                                                                @Model.kapsamList.First(m => m.KISA_AD.Equals("PD")).ACIKLAMA
+                                                                <br /> <br />
+                                                            </div>
+                                                            @*<div class="small-box-footer" style="  background-color: lightgrey;">
+                                                    <center><h3>@Model.kapsamList.First(m => m.KISA_AD.Equals("PMA")).KONTOR Kontör</h3></center>
+                                                </div>*@
+                                                            <!-- /.box-body -->
+                                                        </div>
+                                                        <!-- /.box -->
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12 col-sm-12 col-lg-12" hidden id="divAltKapsamAVD">
+                                                        <span style="font-size:medium" class="badge bg-light-blue-active">Kural Alt Kapsamları</span>
+                                                        <hr style="margin-top:5px; margin-bottom:5px;" />
+                                                        <div class="form-group">
+                                                            @{int toplamKontorAVD = 0; }
+                                                            @for (int i = 0; i < Model.altKapsamListAVD.Count; i++)
+                                                            {
+                                                                toplamKontorAVD += Model.altKapsamListAVD[i].KONTOR;
+                                            @Html.CheckBoxFor(m => m.altKapsamListAVD[i].IsCheck, new { @onclick = "kontorIslemleri(this," + @Model.altKapsamListAVD[i].KONTOR + ",'AVD')" })
+                                                                @Html.LabelFor(m => m.altKapsamList[i].IsCheck, Model.altKapsamListAVD[i].AD, new { data_toggle = "tooltip", data_placement = "top", title = @Model.altKapsamListAVD[i].ACIKLAMA })
+                                                                                    <span class="badge bg-light-blue-gradient" style="font-size:medium">@Model.altKapsamListAVD[i].kuralSayisi Kural </span>
+                                                                                                        <span class="badge bg-light-blue-active">@Model.altKapsamListAVD[i].KONTOR Kontör </span>
+                                                                                                                            @Html.HiddenFor(m => m.altKapsamListAVD[i].LOGICALREF)
+                                                                                                                                                <br />}
+                                                        </div>
+                                                        <h3> <center style="margin-bottom:-20px;"><b>Denetim Maliyeti </b> <label class="badge bg-blue-active" style="font-size:large;" id="toplamSecilenKontorAVD">@toplamKontorAVD</label><b> Kontör</b></center></h3>
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-md-12 col-sm-12 col-lg-12" hidden id="divAltKapsamGVD">
+                                                        <span style="font-size:medium" class="badge bg-light-blue-active">Kural Alt Kapsamları</span>
+                                                        <hr style="margin-top:5px; margin-bottom:5px;" />
+                                                        <div class="form-group">
+                                                            @{int toplamKontorGVD = 0; }
+                                                            @for (int i = 0; i < Model.altKapsamListGVD.Count; i++)
+                                                            {
+                                                                toplamKontorGVD += Model.altKapsamListGVD[i].KONTOR;
+                                            @Html.CheckBoxFor(m => m.altKapsamListGVD[i].IsCheck, new { @onclick = "kontorIslemleri(this," + @Model.altKapsamListGVD[i].KONTOR + ",'GVD')" })
+                                                                @Html.LabelFor(m => m.altKapsamListGVD[i].IsCheck, Model.altKapsamListGVD[i].AD, new { data_toggle = "tooltip", data_placement = "top", title = @Model.altKapsamListGVD[i].ACIKLAMA })
+                                                                                    <span class="badge bg-light-blue-gradient" style="font-size:medium">@Model.altKapsamListGVD[i].kuralSayisi Kural </span>
+                                                                                                        <span class="badge bg-light-blue-active">@Model.altKapsamListGVD[i].KONTOR Kontör </span>
+                                                                                                                            @Html.HiddenFor(m => m.altKapsamListGVD[i].LOGICALREF)
+                                                                                                                                                <br />}
+                                                        </div>
+                                                        <h3> <center style="margin-bottom:-20px;"><b>Denetim Maliyeti </b> <label class="badge bg-blue-active" style="font-size:large;" id="toplamSecilenKontorGVD">@toplamKontorGVD</label><b> Kontör</b></center></h3>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-md-12 col-sm-12 col-lg-12" hidden id="divAltKapsamHD">
+                                                        <span style="font-size:medium" class="badge bg-light-blue-active">Kural Alt Kapsamları</span>
+                                                        <hr style="margin-top:5px; margin-bottom:5px;" />
+                                                        <div class="form-group">
+                                                            @{int toplamKontorHD = 0; }
+                                                            @for (int i = 0; i < Model.altKapsamListHD.Count; i++)
+                                                            {
+                                                                toplamKontorHD += Model.altKapsamListHD[i].KONTOR;
+                                            @Html.CheckBoxFor(m => m.altKapsamListHD[i].IsCheck, new { @onclick = "kontorIslemleri(this," + @Model.altKapsamListHD[i].KONTOR + ",'HD')" })
+                                                                @Html.LabelFor(m => m.altKapsamListHD[i].IsCheck, Model.altKapsamListHD[i].AD, new { data_toggle = "tooltip", data_placement = "top", title = @Model.altKapsamListHD[i].ACIKLAMA })
+                                                                                    <span class="badge bg-light-blue-gradient" style="font-size:medium">@Model.altKapsamListHD[i].kuralSayisi Kural </span>
+                                                                                                        <span class="badge bg-light-blue-active">@Model.altKapsamListHD[i].KONTOR Kontör </span>
+                                                                                                                            @Html.HiddenFor(m => m.altKapsamListHD[i].LOGICALREF)
+                                                                                                                                                <br />}
+                                                        </div>
+                                                        <h3> <center style="margin-bottom:-20px;"><b>Denetim Maliyeti </b> <label class="badge bg-blue-active" style="font-size:large;" id="toplamSecilenKontorHD">@toplamKontorHD</label><b> Kontör</b></center></h3>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-md-12 col-sm-12 col-lg-12" hidden id="divAltKapsamPD">
+                                                        <span style="font-size:medium" class="badge bg-light-blue-active">Kural Alt Kapsamları</span>
+                                                        <hr style="margin-top:5px; margin-bottom:5px;" />
+                                                        <div class="form-group">
+                                                            @{int toplamKontorPD = 0; }
+                                                            @for (int i = 0; i < Model.altKapsamListPD.Count; i++)
+                                                            {
+                                                                toplamKontorPD += Model.altKapsamListPD[i].KONTOR;
+                                            @Html.CheckBoxFor(m => m.altKapsamListPD[i].IsCheck, new { @onclick = "kontorIslemleri(this," + @Model.altKapsamListPD[i].KONTOR + ",'PD')" })
+                                                                @Html.LabelFor(m => m.altKapsamListPD[i].IsCheck, Model.altKapsamListPD[i].AD, new { data_toggle = "tooltip", data_placement = "top", title = @Model.altKapsamListPD[i].ACIKLAMA })
+                                                                                    <span class="badge bg-light-blue-gradient" style="font-size:medium">@Model.altKapsamListPD[i].kuralSayisi Kural </span>
+                                                                                                        <span class="badge bg-light-blue-active">@Model.altKapsamListPD[i].KONTOR Kontör </span>
+                                                                                                                            @Html.HiddenFor(m => m.altKapsamListPD[i].LOGICALREF)
+                                                                                                                                                <br />}
+                                                        </div>
+                                                        <h3> <center style="margin-bottom:-20px;"><b>Denetim Maliyeti </b> <label class="badge bg-blue-active" style="font-size:large;" id="toplamSecilenKontorPD">@toplamKontorPD</label><b> Kontör</b></center></h3>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div> <!-- /.box-body -->
+                                                @Html.TextBoxFor(m => m.KONTOR_SAYISI, new { @class = "form-control,", @hidden="hidden", @id = "toplamKontorSayisi"})
+                                                                <div class="box-footer">
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">
+                                                                            <button type="submit" id="kydBtn" disabled class="btn btn-primary pull-left fa fa-plus"> Kaydet </button>
+                                                                        </div>
+                                                                        <div class="col-md-6">
+                                                                            @Html.ActionLink(" Geri Dön", "FirmaDenetimleri", new { firmaId = @firmaId }, new { @class = "btn btn-warning pull-right fa fa-reply" })
+                                                                        </div>
+                                                                    </div>
+                                                                </div>}
+                </div>
+            </div>
+            <!--/.col (left) -->
+            @*<div class="text-success" role="status" style="margin-left:20%;margin-right:20%; margin-top:10%;position:fixed;">*@
+
+            <div id="modalInfo" class="modal  col-md-8 col-sm-12 col-xs-12 col-lg-8 col-md-offset-4 col-lg-offset-4 " style="position: fixed; width:390px;height:40px;">
+                <span class="badge bg-gray" id="denetimMaliyetiInfo" style="font-size:30px; "></span>
+            </div>
+        </div>
+        <!-- /.row -->
+    </section>
+    <div class="modal modal-warning fade" id="modal-warning">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">Yetersiz Bakiye</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Seçtiğiniz kapsam için yeterli bakiyeniz yoktur. Kontür yüklemek için <a href="https://netdenet.azurewebsites.net/Kullanici/KontorSatinAl">tıklayınız</a> </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline pull-left fa fa-close" data-dismiss="modal"> Kapat</button>
+                    @*<button type="button" onclick="Update()" class="btn btn-outline fa fa-edit"> Güncelle</button>*@
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+
+
+
+    <input value="@Session["BAKIYE"].ToString()" hidden id="bakiye" />
+    <input value="0" hidden id="toplamKontor" />
+    <!-- /.content -->
+</div>
+
+@section Scripts
+{
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //$('#siparisTbl').DataTable()
+
+        });
+
+
+        function kontorIslemleri(checkBox_, kontor, kapsam) {
+            var toplamSecilenKontor = parseInt(0);
+            if (kapsam == "AVD") {
+                toplamSecilenKontor = parseInt(document.getElementById('toplamSecilenKontorAVD').innerHTML);
+            }
+            if (kapsam == "GVD") {
+                toplamSecilenKontor = parseInt(document.getElementById('toplamSecilenKontorGVD').innerHTML);
+            }
+            if (kapsam == "PD") {
+                toplamSecilenKontor = parseInt(document.getElementById('toplamSecilenKontorPD').innerHTML);
+            }
+            if (kapsam == "HD") {
+                toplamSecilenKontor = parseInt(document.getElementById('toplamSecilenKontorHD').innerHTML);
+            }
+            document.getElementById('toplamKontor').value = toplamSecilenKontor;
+            document.getElementById('toplamKontorSayisi').value = toplamSecilenKontor;
+            //var toplamSecilenKontor = parseInt(document.getElementById('toplamSecilenKontor').innerHTML);
+            var bakiye = parseInt(document.getElementById('bakiye').value);
+            var toplamKontor = parseInt(document.getElementById('toplamKontor').value);
+            if (checkBox_.checked)//tiklendiyse
+            {
+                if ((parseInt(toplamKontor) + parseInt(kontor)) <= bakiye) {
+                    document.getElementById('toplamKontor').value = (parseInt(toplamKontor) + parseInt(kontor));
+                    toplamSecilenKontor = toplamSecilenKontor + parseInt(kontor);
+                    //document.getElementById('toplamSecilenKontor').innerHTML = toplamSecilenKontor;
+
+                    if (kapsam == "AVD") {
+                        document.getElementById('toplamSecilenKontorAVD').innerHTML = toplamSecilenKontor;
+                    }
+                    if (kapsam == "GVD") {
+                        document.getElementById('toplamSecilenKontorGVD').innerHTML = toplamSecilenKontor;
+                    }
+                    if (kapsam == "PD") {
+                        document.getElementById('toplamSecilenKontorPD').innerHTML = toplamSecilenKontor;
+                    }
+                    if (kapsam == "HD") {
+                        document.getElementById('toplamSecilenKontorHD').innerHTML = toplamSecilenKontor;
+                    }
+
+                    //var x = document.getElementById("modalInfo");
+                    //var y = document.getElementById("content-wrapper");
+                    //x.style.display = "show";
+                    document.getElementById('toplamKontorSayisi').value = toplamSecilenKontor;
+                    document.getElementById('denetimMaliyetiInfo').innerHTML = "Denetim Maliyeti " + toplamSecilenKontor + " Kontör";
+                    $("#modalInfo").show();
+                    setTimeout(function () {
+                        $("#modalInfo").fadeTo(1000, 500).slideUp(500, function () {
+                            $("#modalInfo").hide();
+                        });
+                    }, 500);//2000=2 seconds
+
+                }
+                else {
+                    checkBox_.checked = false;
+                    //document.getElementById("kydBtn").disabled = true;
+                    $("#modal-warning").modal('show');
+                }
+                //if (toplamSecilenKontor === 0) {
+                //    document.getElementById("kydBtn").disabled = true;
+                //}
+                //else {
+                //    document.getElementById("kydBtn").disabled = false;
+                //}
+            }
+            else {//tik kaldırıldıysa
+                document.getElementById('toplamKontor').value = (parseInt(toplamKontor) - parseInt(kontor));
+                toplamSecilenKontor = toplamSecilenKontor - parseInt(kontor);
+                document.getElementById('toplamKontorSayisi').value = toplamSecilenKontor;
+                //document.getElementById('toplamSecilenKontor').innerHTML = toplamSecilenKontor;
+                document.getElementById('denetimMaliyetiInfo').innerHTML = "Denetim Maliyeti " + toplamSecilenKontor + " Kontör";
+                if (kapsam == "AVD") {
+                    document.getElementById('toplamSecilenKontorAVD').innerHTML = toplamSecilenKontor;
+                }
+                if (kapsam == "GVD") {
+                    document.getElementById('toplamSecilenKontorGVD').innerHTML = toplamSecilenKontor;
+                }
+                if (kapsam == "PD") {
+                    document.getElementById('toplamSecilenKontorPD').innerHTML = toplamSecilenKontor;
+                }
+                if (kapsam == "HD") {
+                    document.getElementById('toplamSecilenKontorHD').innerHTML = toplamSecilenKontor;
+                }
+
+                $("#modalInfo").show();
+
+                setTimeout(function () {
+                    $("#modalInfo").fadeTo(1000, 500).slideUp(500, function () {
+                        $("#modalInfo").hide();
+                    });
+                }, 500);//2000=2 seconds
+
+            }
+            if (toplamSecilenKontor === 0) {
+                document.getElementById("kydBtn").disabled = true;
+            }
+            else {
+                document.getElementById("kydBtn").disabled = false;
+            }
+        }
+
+        function handleClick(checkBox_, kapsamId) {
+            if (checkBox_.checked)//tiklendiyse
+            {
+                document.getElementById("kydBtn").disabled = false;
+                if (kapsamId === "gvd") {
+                    document.getElementById("avd1").disabled = true;
+                    document.getElementById("hd1").disabled = true;
+                    document.getElementById("pma1").disabled = true;
+                    document.getElementById("ddDonem").disabled = false;
+                    //document.getElementById('toplamKontor').value = parseInt(document.getElementById('toplamSecilenKontorGVD').value);
+                    document.getElementById('toplamKontorSayisi').value = parseInt(document.getElementById('toplamSecilenKontorGVD').innerHTML);
+
+                    $('#divAltKapsamGVD').show();
+                }
+
+                if (kapsamId === "avd") {
+                    document.getElementById("gvd1").disabled = true;
+                    document.getElementById("hd1").disabled = true;
+                    document.getElementById("pma1").disabled = true;
+                    document.getElementById("ddAy").disabled = false;
+                    //document.getElementById('toplamKontor').value = parseInt(document.getElementById('toplamSecilenKontorAVD').value);
+                    document.getElementById('toplamKontorSayisi').value = parseInt(document.getElementById('toplamSecilenKontorAVD').innerHTML);
+                    $('#divAltKapsamAVD').show();
+                }
+                if (kapsamId === "hd") {
+                    document.getElementById("gvd1").disabled = true;
+                    document.getElementById("avd1").disabled = true;
+                    document.getElementById("pma1").disabled = true;
+                    document.getElementById("ddAy").disabled = false;
+                    //document.getElementById('toplamKontor').value = parseInt(document.getElementById('toplamSecilenKontorHD').value);
+                    document.getElementById('toplamKontorSayisi').value = parseInt(document.getElementById('toplamSecilenKontorHD').innerHTML);
+
+                    $('#divAltKapsamHD').show();
+                }
+                if (kapsamId === "pma") {
+                    document.getElementById("gvd1").disabled = true;
+                    document.getElementById("avd1").disabled = true;
+                    document.getElementById("hd1").disabled = true;
+                    document.getElementById("ddAy").disabled = false;
+                    //document.getElementById('toplamKontor').value = parseInt(document.getElementById('toplamSecilenKontorPD').value);
+                    document.getElementById('toplamKontorSayisi').value = parseInt(document.getElementById('toplamSecilenKontorPD').innerHTML);
+
+                    $('#divAltKapsamPD').show();
+                }
+            }
+            else {
+                document.getElementById("kydBtn").disabled = true;
+                if (kapsamId === "gvd") {
+                    document.getElementById('ddDonem').selectedIndex = 0;
+                    document.getElementById("avd1").disabled = false;
+                    document.getElementById("hd1").disabled = false;
+                    document.getElementById("pma1").disabled = false;
+                    document.getElementById("ddDonem").disabled = true;
+                    //$('#divPma').hide();
+                    //$('#divHd').hide();
+                    $('#divAltKapsamGVD').hide();
+                }
+
+                if (kapsamId === "avd") {
+                    document.getElementById('ddAy').selectedIndex = 0;
+                    document.getElementById("gvd1").disabled = false;
+                    document.getElementById("hd1").disabled = false;
+                    document.getElementById("pma1").disabled = false;
+                    document.getElementById("ddAy").disabled = true;
+                    //$('#divPma').hide();
+                    //$('#divHd').hide();
+                    $('#divAltKapsamAVD').hide();
+                }
+                if (kapsamId === "hd") {
+                    document.getElementById('ddAy').selectedIndex = 0;
+                    document.getElementById("gvd1").disabled = false;
+                    document.getElementById("avd1").disabled = false;
+                    document.getElementById("pma1").disabled = false;
+                    document.getElementById("ddAy").disabled = true;
+                    $('#divAltKapsamHD').hide();
+                }
+                if (kapsamId === "pma") {
+                    document.getElementById('ddAy').selectedIndex = 0;
+                    document.getElementById("gvd1").disabled = false;
+                    document.getElementById("avd1").disabled = false;
+                    document.getElementById("hd1").disabled = false;
+                    document.getElementById("ddAy").disabled = true;
+                    $('#divAltKapsamPD').hide();
+                }
+            }
+
+        }
+
+
+        //function handleClick(kontor, checkBox_, kapsamId) {
+        //    var toplamSecilenKontor = parseInt(document.getElementById('toplamSecilenKontor').innerHTML);
+        //    var bakiye = parseInt(document.getElementById('bakiye').value);
+        //    var toplamKontor = parseInt(document.getElementById('toplamKontor').value);
+        //    if ((parseInt(toplamKontor) + parseInt(kontor)) <= bakiye) {
+
+        //        if (checkBox_.checked)//tiklendiyse
+        //        {
+        //            document.getElementById('toplamKontor').value = (parseInt(toplamKontor) + parseInt(kontor));
+        //            if (kapsamId === "vd") {
+        //                document.getElementById("md1").disabled = true;
+        //                document.getElementById("ddDonem").disabled = false;
+        //            }
+
+        //            if (kapsamId === "md") {
+        //                document.getElementById("vd1").disabled = true;
+        //                document.getElementById("ddAy").disabled = false;
+        //            }
+        //            toplamSecilenKontor = toplamSecilenKontor + parseInt(kontor);
+        //            document.getElementById('toplamSecilenKontor').innerHTML = toplamSecilenKontor;
+        //            if (toplamSecilenKontor === 0) {
+        //                document.getElementById("kydBtn").disabled = true;
+        //            }
+        //            else {
+        //                document.getElementById("kydBtn").disabled = false;
+        //            }
+        //        }
+        //        else {
+
+        //            document.getElementById('toplamKontor').value = (parseInt(toplamKontor) - parseInt(kontor));
+        //            if (kapsamId === "vd") {
+        //                document.getElementById('ddDonem').selectedIndex = 0;
+        //                document.getElementById("md1").disabled = false;
+        //                document.getElementById("ddDonem").disabled = true;
+        //                $('#divPma').hide();
+        //                $('#divHd').hide();
+        //            }
+
+        //            if (kapsamId === "md") {
+        //                document.getElementById('ddAy').selectedIndex = 0;
+        //                document.getElementById("vd1").disabled = false;
+        //                document.getElementById("ddAy").disabled = true;
+        //                $('#divPma').hide();
+        //                $('#divHd').hide();
+        //            }
+        //            //if (kapsamId === "hd") {
+        //            //    document.getElementById("md1").disabled = false;
+        //            //    document.getElementById("vd1").disabled = false;
+        //            //}
+        //            toplamSecilenKontor = toplamSecilenKontor - parseInt(kontor);
+        //            document.getElementById('toplamSecilenKontor').innerHTML = toplamSecilenKontor;
+        //            if (toplamSecilenKontor === 0) {
+        //                document.getElementById("kydBtn").disabled = true;
+        //            }
+        //            else {
+        //                document.getElementById("kydBtn").disabled = false;
+        //            }
+        //        }
+        //    }
+        //    else {
+        //        checkBox_.checked = false;
+        //        //document.getElementById("kydBtn").disabled = true;
+        //        $("#modal-warning").modal('show');
+        //    }
+        //}
+
+
+
+        //function toggleDivDisplay() {
+        //    var ddlViewBy = document.getElementById('ddAy');
+        //    var textAy = ddlViewBy.options[ddlViewBy.selectedIndex].text;
+
+        //    if (textAy == '1-12') {
+        //        $('#divPma').show();
+        //        $('#divHd').show();
+        //    }
+        //    else {
+        //        $('#divPma').hide();
+        //        $('#divHd').hide();
+        //    }
+        //}
+        //function toggleDivDisplayDonem() {
+        //    var ddlViewByDonem = document.getElementById('ddDonem');
+        //    var text = ddlViewByDonem.options[ddlViewByDonem.selectedIndex].text;
+        //    if (text == '4.Çeyrek (1-12)') {
+        //        $('#divPma').show();
+        //        $('#divHd').show();
+        //    }
+        //    else {
+        //        $('#divPma').hide();
+        //        $('#divHd').hide();
+        //    }
+
+        //}
+
+        $(".select-add-placeholder-donem").prepend("<option value='' disabled selected>Dönem</option>");
+        $(".select-add-placeholder-ay").prepend("<option value='' disabled selected>Ay</option>");
+
+    </script>
+
+}
+
+

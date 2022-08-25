@@ -1,0 +1,129 @@
+﻿@model IEnumerable<DKN.Models.BILDIRIM>
+
+@{ ViewBag.Title = "Bildirim Listesi";
+    Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            @Html.Partial("_Message")
+        </h1>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        <div class="row" style="margin-top:10px;">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="box box-primary">
+                    <div class="box-header">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <h4><b>BİLDİRİM LİSTESİ</b></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="">
+                        <table id="bildirimTbl" class="table table-bordered table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th style="width:30px">S.NO</th>
+                                    <th>AÇIKLAMA</th>
+                                    <th>TARİH</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{int RowNo = 0;}
+                                @foreach (var item in Model.OrderByDescending(m => m.TARIH))
+                                {
+                                    if (item.DURUMU == 1)
+                                    {
+                    <tr style="font-weight:bold">
+                        <td style=""> @{RowNo++;} @RowNo</td>
+                        <td> @Html.ActionLink(item.ACIKLAMA_KISA, "BildirimDetay", new { id = item.LOGICALREF.ToString() })</td>
+                        <td> @Html.DisplayFor(modelItem => item.TARIH)</td>
+                        <td>
+                            <a href="#" class="btn btn-danger fa fa-trash" onclick="ConfirmDelete('@item.LOGICALREF')"> SİL</a>
+                        </td>
+
+                    </tr> }
+                                    else
+                                    {
+                            <tr>
+                                <td style=""> @{RowNo++;} @RowNo</td>
+                                <td> @Html.ActionLink(item.ACIKLAMA_KISA, "BildirimDetay", new { id = item.LOGICALREF.ToString() })</td>
+                                <td> @Html.DisplayFor(modelItem => item.TARIH)</td>
+                                <td>
+                                    <a href="#" class="btn btn-danger fa fa-trash" onclick="ConfirmDelete('@item.LOGICALREF')"> SİL</a>
+                                </td>
+                            </tr>
+}
+            }
+
+                            </tbody>
+
+                        </table>
+                    </div>
+                    <!-- /.box-body -->
+                </div>
+                <!-- /.box -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </section>
+    <div class="modal modal-warning fade" id="modal-warning">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">İşlem Onayı</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Bildirimi Silmek İstediğinizden Emin misiniz?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline pull-left fa fa-close" data-dismiss="modal"> Vazgeç</button>
+                    <button type="button" onclick="Update()" class="btn btn-outline fa fa-trash"> Sil</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <input type="hidden" id="hiddenId" />
+</div>
+<!-- /.content-wrapper -->
+@section Scripts
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#bildirimTbl').DataTable({
+            });
+        });
+        function ConfirmDelete(id) {
+            $("#hiddenId").val(id);
+            $("#modal-warning").modal('show');
+        }
+        function Update() {
+            var id = $("#hiddenId").val();
+            $.ajax({
+                type: "GET",
+                url: "/Kullanici/SilBildirim",
+                data: {
+                    id: id
+                },
+                success: function (result) {
+                    $("#modal-warning").modal("hide");
+                    location.href = '/Kullanici/Bildirim';
+                }
+            })
+        }
+    </script>
+
+}
+

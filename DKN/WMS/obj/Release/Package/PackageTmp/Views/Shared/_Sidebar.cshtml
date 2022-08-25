@@ -1,0 +1,93 @@
+﻿@using DKN.Helpers;
+@{ var ad = Session["AD"];
+    var soyad = Session["SOYAD"];
+    var email = Session["EMAIL"]; }
+<!-- Left side column. contains the logo and sidebar -->
+<aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+        <!-- /.search form -->
+        <!-- sidebar menu: : style can be found in sidebar.less -->
+        <ul class="sidebar-menu" data-widget="tree">
+            <li class="header">ANA MENÜ</li>
+
+            <li class="@Html.IsSelected(action: "IndexKullanici") step-firmalarim">
+                <a href="@Url.Action("IndexKullanici", "Kullanici")">
+                    <i class="fa fa-circle-o text-green"></i> <span>Firmalarım</span>
+                </a>
+            </li>
+            <li class="@Html.IsSelected(action: "SonDenetimler") son-denetimler">
+                <a href="@Url.Action("SonDenetimler", "Kullanici")">
+                    <i class="fa fa-circle-o text-warning"></i> <span>Son Denetimler</span>
+                </a>
+            </li>
+            <li class="@Html.IsSelected(action: "SonRaporlar") son-raporlar">
+                <a href="@Url.Action("SonRaporlar", "Kullanici")">
+                    <i class="fa fa-circle-o text-primary"></i> <span>Son Raporlar</span>
+                </a>
+            </li>
+            <li class="@Html.IsSelected(action: "KontorSatinAl") kontoral">
+                <a href="@Url.Action("KontorSatinAl", "Kullanici")">
+                    <i class="fa fa-circle-o text-gray"></i> <span>Kontör Satın Al</span>
+                </a>
+            </li>
+            @*<li class="@Html.IsSelected(controller: "Kullanici") treeview">
+            <a href="@Url.Action("IndexKullanici", "Kullanici")">
+                <i class="fa fa-user-circle"></i>
+                <span>Kullanıcı</span>
+                <span class="pull-right-container">
+                    <span class="label label-primary pull-right">1</span>
+                </span>
+            </a>
+            <ul class="treeview-menu">
+                <li class="@Html.IsSelected(action: "IndexKullanici")"><a href="@Url.Action("IndexKullanici", "Kullanici")"><i class="fa fa-circle-o"></i>Kullanıcı İşlemleri</a></li>
+            </ul>
+        </li>*@
+            <li class="@Html.IsSelected(controller: "Yonetici") @Session["menuGoster"].ToString() treeview">
+                <a href="@Url.Action("IndexYonetici", "Yonetici")">
+                    <i class="fa fa-circle-o text-danger"></i>
+                    <span>Yönetici</span>
+                    <span class="pull-right-container">
+                        <span class="label label-primary pull-right">6</span>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="@Html.IsSelected(action: "KullaniciList")"><a href="@Url.Action("KullaniciList", "Yonetici")"><i class="fa fa-circle-o"></i>Kullanıcı Listesi</a></li>
+                    <li class="@Html.IsSelected(action: "KuralListesi")"><a href="@Url.Action("KuralListesi", "Yonetici")"><i class="fa fa-circle-o"></i>Kural Listesi</a></li>
+                    <li class="@Html.IsSelected(action: "AltKapsamList")"><a href="@Url.Action("AltKapsamList", "Yonetici")"><i class="fa fa-circle-o"></i>Alt Kapsam Listesi</a></li>
+                    <li class="@Html.IsSelected(action: "RaporTasarim")"><a href="@Url.Action("RaporTasarim", "Yonetici")"><i class="fa fa-circle-o"></i>Rapor Tasarımı</a></li>
+                    <li class="@Html.IsSelected(action: "KontorIslemleri")"><a href="@Url.Action("KontorIslemleri", "Yonetici")"><i class="fa fa-circle-o"></i>Kontör/Paket Listesi</a></li>
+                    <li class="@Html.IsSelected(action: "YoneticiDenetimList")"><a href="@Url.Action("YoneticiDenetimList", "Yonetici")"><i class="fa fa-circle-o"></i>Yönetici Denetim Tanımla</a></li>
+                </ul>
+            </li>
+
+
+            @*<li class="@Html.IsSelected(controller: "Tanimlar") treeview">
+            <a href="@Url.Action("RolListele", "Tanimlar")">
+                <i class="fa fa-plus-square"></i>
+                <span>Tanımlamalar</span>
+                <span class="pull-right-container">
+                    <span class="label label-primary pull-right">2</span>
+                </span>
+            </a>
+            <ul class="treeview-menu">
+                <li class="@Html.IsSelected(action: "RolListele")"><a href="@Url.Action("RolListele", "Tanimlar")"><i class="fa fa-circle-o"></i>Rol</a></li>
+            </ul>
+        </li>
+        <li class="@Html.IsSelected(controller: "Ayarlar") treeview">
+            <a href="@Url.Action("ERPVeriTabaniAyar", "Ayarlar")">
+                <i class="fa fa-gears"></i>
+                <span>Ayarlar</span>
+                <span class="pull-right-container">
+                    <span class="label label-primary pull-right">2</span>
+                </span>
+            </a>
+            <ul class="treeview-menu">
+                <li class="@Html.IsSelected(action: "ERPVeriTabaniAyar")"><a href="@Url.Action("ERPVeriTabaniAyar", "Ayarlar")"><i class="fa fa-circle-o"></i>ERP Veri Tabanı</a></li>
+
+            </ul>
+        </li>*@
+        </ul>
+    </section>
+    <!-- /.sidebar -->
+</aside>

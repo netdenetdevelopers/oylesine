@@ -1,0 +1,101 @@
+﻿@model DKN.Models.KULLANICI
+
+@{
+    ViewBag.Title = "Kullanıcı Ekle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1> @Html.Partial("_Message")</h1>
+            <ol class="breadcrumb">
+                <li><a href="/Home/HomeIndex"><i class="fa fa-dashboard"></i> Menü</a></li>
+                <li><a href="/Yonetici/KullaniciList">Kullanıcı Listesi</a></li>
+                <li class="active">Kullanıcı Ekleme</li>
+            </ol>
+        </section>
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+                <!-- left column -->
+                <div class="col-md-6 col-md-offset-3">
+                    <!-- general form elements -->
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <h3 class="box-title fa fa-user-circle-o"><b>Kullanıcı Ekleme Sayfası</b></h3>
+                        </div>          
+                        @using (Html.BeginForm("Create", "Yonetici", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                    <div class="box-body">
+                        <div class="form-group">
+                            <label for="email">Email adresi</label>
+                            @*<input type="email" required name="EMAIL" class="form-control" id="email" placeholder="Email">*@
+                            @Html.TextBoxFor(m => m.EMAIL, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.EMAIL, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="form-group">
+                            <label for="ad">Ad</label>
+                            @* <input type="text" name="AD" class="form-control" id="ad" placeholder="Ad">*@
+                            @Html.TextBoxFor(m => m.AD, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.AD, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="form-group">
+                            <label>Soyad</label>
+                            @* <input type="text" name="SOYAD" class="form-control" id="ad" placeholder="Soyad">*@
+                            @Html.TextBoxFor(m => m.SOYAD, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.SOYAD, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="form-group">
+                            <label>Telefon</label>
+                            @* <input type="text" name="SOYAD" class="form-control" id="ad" placeholder="Soyad">*@
+                            @Html.TextBoxFor(m => m.TELEFON, new { @class = "form-control", @maxlength = "10", @placeholder = "Telefon (Başında '0' olmadan giriniz.)" })
+                            @Html.ValidationMessageFor(m => m.TELEFON, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="form-group">
+                            <label for="sifre">Şifre</label>
+                            @Html.PasswordFor(m => m.SIFRE, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.SIFRE, "", new { @class = "text-danger" })
+                        </div>
+
+                        <!--<div class="form-group">
+                            <label>US phone mask:</label>
+                            <div class="input-group">
+                                <div class="input-group-addon">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <input type="text" class="form-control" data-inputmask='"mask": "(999) 999-9999"' data-mask>
+                            </div>-->
+                            <!-- /.input group -->
+                        <!--</div>-->
+                    </div>
+                            <!-- /.box-body -->
+                    <div class="box-footer">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <button type="submit" class="btn btn-primary pull-left fa fa-user-plus"> Kaydet </button>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="/Yonetici/KullaniciList" class="btn btn-warning pull-right fa fa-reply"> Kullanıcı Listesine Dön</a>
+
+                            </div>
+                        </div>
+                       
+                    </div>
+                        }
+                    </div>
+
+                </div>
+                <!--/.col (left) -->
+          
+            </div>
+            <!-- /.row -->
+        </section>
+        <!-- /.content -->
+    </div>
+
+
+
+

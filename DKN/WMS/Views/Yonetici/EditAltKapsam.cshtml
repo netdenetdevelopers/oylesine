@@ -1,0 +1,84 @@
+﻿@model DKN.Models.ALT_KAPSAM
+
+@{ ViewBag.Title = "Alt Kapsam Güncelle";
+    Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>  @Html.Partial("_Message")</h1>
+        <ol class="breadcrumb">
+            <li><a href="/Home/HomeIndex"><i class="fa fa-dashboard"></i> Menü</a></li>
+            <li><a href="/Home/HomeIndex">Yönetici</a></li>
+            <li><a href="/Yonetici/AltKapsamList">Alt Kapsam Listesi</a></li>
+            <li class="active">Alt Kapsam Güncelleme</li>
+        </ol>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-6 col-md-offset-2">
+                <!-- general form elements -->
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+                        <h3 class="box-title fa fa-user-circle-o"><b>Alt Kapsam Güncelleme</b></h3>
+                    </div>
+                    @using (Html.BeginForm("EditAltKapsam", "Yonetici", FormMethod.Post))
+                    {
+        @Html.AntiForgeryToken()
+                        <div class="box-body">
+                            <div class="form-group">
+                                <label>Ad</label>
+                                @Html.TextBoxFor(m => m.AD, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.AD, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="form-group">
+                                <label>Kısa Ad</label>
+                                @Html.TextBoxFor(m => m.KISA_AD, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.KISA_AD, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="form-group">
+                                <label>Kontör</label>
+                                @Html.TextBoxFor(m => m.KONTOR, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.KONTOR, "Lütfen sadece sayı giriniz.", new { @class = "text-danger" })
+                            </div>
+                            <div class="form-group">
+                                <label>Açıklama</label>
+                                @Html.TextBoxFor(m => m.ACIKLAMA, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.ACIKLAMA, "", new { @class = "text-danger" })
+                            </div>
+                            <div>
+                                <div class="row" style="margin:5px">
+                                    <div class="row">
+                                        <div class="form-group col-md-6 col-sm-6 col-xs-6 pull-left">
+                                            <label class="pull-left"> Kullanım Durumu&nbsp; </label>
+                                            @Html.CheckBoxFor(model => model.kullanimDurumuBool, new { @class = "icheck-primary, pull-left", @id = "kullanimDurumu" })
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- /.box-body -->
+                                        <div class="box-footer">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <button type="submit" class="btn btn-primary pull-left fa fa-edit"> Güncelle </button>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <a href="/Yonetici/AltKapsamListesi" class="btn btn-warning pull-right fa fa-reply"> Alt Kapsam Listesine Dön</a>
+                                                </div>
+                                            </div>
+
+                                        </div>}
+                </div>
+
+            </div>
+            <!--/.col (left) -->
+
+        </div>
+        <!-- /.row -->
+    </section>
+    <!-- /.content -->
+</div>
+
+

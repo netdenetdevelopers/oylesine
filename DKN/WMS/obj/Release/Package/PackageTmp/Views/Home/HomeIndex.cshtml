@@ -1,0 +1,112 @@
+﻿@{ ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>  @Html.Partial("_Message")</h1>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        <center>
+            <p>
+                <img height="70"  src="../../Content/adminlte/img/yellow.gif">
+            </p>
+            <p>
+                <a href="#" class="btn btn-primary" id="tour" style="display: none;">Sistemi Keşfet</a>
+            </p>
+            <a href="../../index2.html">
+                <img src="../../Content/adminlte/img/dkn96x96.png">
+            </a>
+            <br />
+            <br />
+            <br />
+            <h1>HOŞ GELDİNİZ</h1>
+            @*<h3><b>DKN DANIŞMANLIK</b></h3>*@
+            <h3>NETDENET DENETİM SİSTEMİ</h3>
+            <h3>2022</h3>
+        </center>
+    </section>
+    <!-- /.content -->
+
+</div>
+<div style="display: none;">
+    <ul id="my-tour-steps">
+
+        <li data-id=".step-hesapBilgileri" data-position="top">
+            <h1>Hesap Bilgileri</h1>
+            <p>Hesap bilgilerinizi burada görebilir ve buradan güncelleyebilirsiniz.</p>
+        </li>
+        <li data-id=".step-kontor" data-position="top">
+            <h1>Kontör Bakiyesi</h1>
+            <p>Denetimlerde kullanacağınız açılış kontör bakiyeniz ve sonradan satın alacağınız toplam kontör bakiyenizi burada takip edebilir, kontor hareketlerinizi inceleyebilirsiniz.</p>
+        </li>
+        <li data-id=".step-firmalarim" data-position="left">
+            <h1>Firmalarım</h1>
+            <p>Denetim yapacağınız ilk firmayı buraya kaydettikten sonra denetime devam edebilirsiniz. Bir sonraki adımda şayet farklı firmaları denetleyecekseniz, denetleyeceğiniz firmaları burada istediğiniz şekilde kaydedebilir ve takip edebilirsiniz.</p>
+        </li>
+        <li data-id=".son-denetimler" data-position="left">
+            <h1>Son Denetimler</h1>
+            <p>Son 10 denetiminize buradan ulaşabilirsiniz. </p>
+        </li>
+        <li data-id=".son-raporlar" data-position="left">
+            <h1>Son Raporlar</h1>
+            <p>Son 10 raporunuza buradan ulaşabilirsiniz. </p>
+        </li>
+        <li data-id=".kontoral" data-position="left">
+            <h1>Kontör Satın Al</h1>
+            <p>Buradan paket/kontör detaylarını görüp satın alabilirsiniz.</p>
+        </li>
+    </ul>
+</div>
+@section Scripts
+{
+   @* <script type="text/javascript" src="~/Scripts/adminlte/js/mytour/jquery.1.7.1.js"></script>*@
+    @*<script type="text/javascript" src="~/Scripts/adminlte/js/mytour/jquery.mytour.1.0.7.min.js"></script>*@
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // $('#tour').mytour(); /* simplest way to start */
+            // full options
+            $('#tour').mytour({
+                start: 0,					// start at which step
+
+                buttons: { 					// buttons:
+                    next: 'Sonraki',			// next step.
+                    prev: 'Önceki',			// previous step.
+                    start: 'Başa Dön',			// backward to the first set step.
+                    finish: 'Bitir',		// stop presentation.
+                    menu: false				// show/ hide the dropdown menu with the steps
+                },
+
+                autoPlay: false, 			// (true/ false) if true, start the tour automaticaly
+                timer: 5000, 				// time elipsed before goes to the next step (if null, then don't goes)
+
+                steps: '#my-tour-steps', 	// which objects will contain the steps that will be displayed for the user.
+                stepHolder: 'li',			// which tag is used to hold the step content
+
+                onStart: function () {		// callback method, called when my-tour is started
+
+                    $('#tour').css('display', 'inline');
+                },
+
+                onShow: function () {		// callback method, called when my-tour is played for the 1st time
+                    $('#panel').html('Running ...');
+                },
+
+                beforePlay: null,			// callback method, called always before play any step
+
+                afterPlay: null,			// callback method, called always after has played any step
+
+                onFinish: function () {		// callback method, called when my-tour is finished
+                    location.href = "/Home/HomeIndex";
+                },
+
+                debug: false				// (true/false) if set TRUE, log on console each step
+            });
+
+           
+        });
+    </script>
+  
+}

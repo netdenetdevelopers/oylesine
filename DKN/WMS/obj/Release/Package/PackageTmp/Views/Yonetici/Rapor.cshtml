@@ -1,0 +1,110 @@
+﻿@model IEnumerable<DKN.Models.RAPOR>
+@{
+    ViewBag.Title = "Yönetici Rapor";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var firmaId = "";
+    if (Session["firmaId"] != null)
+    {
+        firmaId = Session["firmaId"].ToString();
+    }
+}
+
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>  @Html.Partial("_Message")</h1>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        <div class="row" style="margin-top:10px;">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="box box-primary">
+                    <div class="box-header">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <h4><b>RAPOR</b></h4>
+                            </div>
+                            @if (Session["firmaId"] != null)
+                            {
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    @* @Html.ActionLink("Yeni Kullanıcı Ekle", "Create", new { @class = "btn btn-default btn-flat" })*@
+                                    @Html.ActionLink(" Geri Dön", "YoneticiDenetimList", new { }, new { @class = "btn btn-warning   btn-flat  pull-right fa fa-reply" })
+                                </div>
+                            }
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                @if (@Session["firmaUnvan"] != null || Session["firmaTcknVkn"] != null)
+                                {
+                                    <hr style="margin-bottom:0px;" />
+                                    <div class="row">
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <h5>VKN/TCKN : <span class="badge bg-aqua" style="font-size:large">@Session["firmaTcknVkn"].ToString()</span></h5>
+                                            <h5>UNVAN : <span class="badge bg-aqua" style="font-size:large">@Session["firmaUnvan"].ToString()</span> </h5>
+                                            <h5>DENETİM : <span class="badge bg-aqua" style="font-size:large">@Session["denetimAd"].ToString()</span> </h5>
+                                        </div>
+
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12  col-xs-12">
+                                <table id="denetimTbl" class="table table-bordered table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>RAPOR</th>
+                                            <th>İNDİR</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model)
+                                        {
+                                            <tr>
+                                                <td><span style="font-size:medium"> @Html.DisplayFor(modelItem => item.AD)</span></td>
+                                                <td>
+                                                    @Html.ActionLink(" ", "IndirRapor", new { raporId = item.LOGICALREF }, new { @class = "btn btn-success fa fa-download" })
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <table id="denetimTbl" class="table table-bordered table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th style="width:30px">S.NO</th>
+                                <th>YEVMİYE DEFTERLERİ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{int RowNo1 = 0;}
+
+                            @if (Model.Count() > 0)
+                            {
+                                foreach (var item in Model.First().yevmiyeDefterleriList)
+                                {
+                                    <tr>
+                                        <td style=""> @{RowNo1++;} @RowNo1</td>
+
+                                        <td>
+                                            @item.YEVMIYE_DEFTER_AD
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+

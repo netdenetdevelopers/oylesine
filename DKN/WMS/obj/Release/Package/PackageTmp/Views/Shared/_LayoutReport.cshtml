@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>@ViewBag.Title - Oto İsmail DKN</title>
+    @Styles.Render("~/Content/css")
+    <style>
+        .fullscreen {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 100%;
+        }
+    </style>
+
+    @Html.DevExpress().GetStyleSheets(new StyleSheet { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+                                                                                 new StyleSheet { ExtensionSuite = ExtensionSuite.Editors },
+                                                                                 new StyleSheet { ExtensionSuite = ExtensionSuite.Report })
+
+    @Html.DevExpress().GetScripts(new Script { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+                                                                                new Script { ExtensionSuite = ExtensionSuite.Editors },
+                                                                                new Script { ExtensionSuite = ExtensionSuite.Report })
+
+    <script type="text/javascript">
+        function onCustomizeMenuActions(s, e) {
+        var actions = e.Actions;
+        actions[0].visible = false;
+        actions.push({
+        imageClassName: "customButton",
+        imageTemplateName: "checkImage",
+        visible: true,
+        clickAction: function () {
+        WebDocumentViewer1.Print();
+        }
+        })
+        }
+    </script>
+
+    <script type="text/html" id="checkImage">
+        <?xml version='1.0' encoding='UTF-8' ?>
+        <svg viewBox="-2 -5 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="Layer_1" transform="translate(-2, -5)" style="enable-background:new 0 0 32 32">
+                <g id="Check">
+                    <polygon class="dxd-icon-fill" points="27,5 11,21 5,15 2,18 11,27 30,8  " />
+                </g>
+            </g>
+        </svg>
+    </script>
+
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic" />
+    @if (IsSectionDefined("Styles"))
+    {@RenderSection("Styles", required: false)}
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+
+    <div class="wrapper" id="container">
+
+        @Html.Partial("_Header")
+
+        @Html.Partial("_Sidebar")
+
+        @RenderBody()
+
+        @Html.Partial("_Footer")
+
+        @Html.Partial("_Aside")
+        <!-- Add the sidebar's background. This div must be placed
+        immediately after the control sidebar -->
+        <div class="control-sidebar-bg"></div>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/lib")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

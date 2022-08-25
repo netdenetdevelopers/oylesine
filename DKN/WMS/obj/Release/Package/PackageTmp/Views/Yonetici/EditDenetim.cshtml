@@ -1,0 +1,293 @@
+﻿@model DKN.Models.DENETIM
+@using MvcCheckBoxList.Model
+
+@{ ViewBag.Title = "Denetim Güncelle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var firmaId = Session["firmaId"].ToString();}
+@Html.Partial("_Popup")
+<div class="content-wrapper" id="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1> @Html.Partial("_Message")</h1>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        @if (Session["devamEdenDenetimVarMi"].ToString() == "1")
+        {
+<center>
+    <div class="row">
+
+        <div class="col-md-6 col-sm-12 col-md-offset-3 col-lg-6 col-lg-offset-3">
+            <div class="alert alert-danger alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true"></button>
+                <h5><span style="font-size:large">Devam etmekte olan bir denetim mevcut. Lütfen bekleyiniz.</span></h5>
+            </div>
+        </div>
+    </div>
+</center>}
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-lg-12 ">
+                <div class="box box-primary">
+                    <div class="box-header">
+                        @if (@Session["firmaUnvan"] != null || Session["firmaTcknVkn"] != null)
+                        {
+            <hr style="margin-bottom:0px;" />
+            <div class="row">
+                <div class="col-md-8 col-sm-8 col-xs-8">
+                    <h5>VKN/TCKN : <span class="badge bg-aqua" style="font-size:large">@Session["firmaTcknVkn"].ToString()</span></h5>
+                    <h5>UNVAN : <span class="badge bg-aqua" style="font-size:large">@Session["firmaUnvan"].ToString()</span> </h5>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4" style="margin-top:30px;">
+                    @* @Html.ActionLink("Yeni Kullanıcı Ekle", "Create", new { @class = "btn btn-default btn-flat" })*@
+                    @Html.ActionLink(" Geri Dön", "YoneticiDenetimList", new { }, new { @class = "btn btn-warning   btn-flat  pull-right fa fa-reply" })
+                </div>
+            </div>}
+                    </div>
+                    <hr style="margin-top:5px; margin-bottom:5px;" />
+                    <div style="margin-left:3px;">
+                        @using (Html.BeginForm("UploadFiles", "Yonetici", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                        {
+            <div class="form-group row" style="padding-top:10px">
+                <div class="col-md-6">
+                    @*<label for="xmlSec" id="xmlLabel" class="btn btn-default pull-left">Defter Seç</label>
+                        <label class="pull-left" id="fileName" style="margin-top:8px;"> </label>*@
+                    @Html.TextBoxFor(model => model.files, "", new { @type = "file", @multiple = "multiple", @id = "xmlSec" })
+                    @Html.ValidationMessageFor(model => model.files, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-5">
+                    @if (Session["devamEdenDenetimVarMi"].ToString() == "1")
+                    {<button type="submit" disabled class="btn btn-primary pull-right fa fa-plus "> Yükle </button> }
+                    else
+                    {<button type="submit" class="btn btn-primary pull-right fa fa-plus"> Yükle </button>}
+                    @if (Model.yevmiyeDefteriList.Count > 0)
+                    {
+                <a class="btn btn-danger pull-right fa fa-minus" onclick="ConfirmDeleteAll()"> Tümünü Sil</a>}
+                </div>
+                <div class="col-md-1"></div>
+            </div>}
+                    </div>
+
+                    <div>
+                        <!-- /.box-header -->
+                        <div>
+                            <!-- See dist/js/pages/dashboard.js to activate the todoList plugin -->
+                            @{ var rowNo = 0;}
+                            <ul class="todo-list">
+                                @foreach (var yevmiyeDefteri in Model.yevmiyeDefteriList)
+                                {
+                                    rowNo++;
+                    <li>
+                        <!-- drag handle -->
+
+
+                        <span class="handle">
+                            <b>@rowNo</b>
+                        </span>
+                        <span id="islemaciklama">@yevmiyeDefteri.dosyaAdi</span>
+                        <!-- General tools such as edit or delete-->
+
+                        <div class="tools" style="margin-top:-8px;">
+                            @Html.ActionLink("Göster", "DosyaIceriginiGoster", new { dosyaId = @yevmiyeDefteri.dosyaId, }, new { @class = "btn btn-warning btn-flat  pull-right" })
+                            <a class="btn btn-danger" onclick="ConfirmDelete('@yevmiyeDefteri.dosyaId')">  Sil <i class="fa fa-trash-o"></i></a>
+                        </div>
+                    </li>}
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="box-footer">
+                        <center>
+                            <button class="btn btn-success btn-lg  fa fa-clock-o" @Session["denetimBaslatBtnDisable"].ToString() id="btnDenetimBaslat"> Denetimi Başlat</button>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal modal-warning fade" id="modal-warning">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">İşlem Onayı</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Yevmiye Defterini Silmek İstediğinizden Emin misiniz?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline pull-left fa fa-close" data-dismiss="modal"> Vazgeç</button>
+                    <button type="button" onclick="Delete()" class="btn btn-outline fa fa-minus"> Sil</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <div class="modal modal-warning fade" id="modal-warning-all">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">İşlem Onayı</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Yevmiye Defteriniz Kalıcı Olarak Silnecektir. Emin misiniz?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline pull-left fa fa-close" data-dismiss="modal"> Vazgeç</button>
+                    <button type="button" onclick="DeleteAll()" class="btn btn-outline fa fa-minus"> Sil</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+
+    <input type="hidden" id="hiddenId" />
+    <input type="hidden" value="@Model.LOGICALREF" id="hiddenId2" />
+    <!-- /.content -->
+</div>
+@section Scripts
+{
+    <script type="text/javascript">
+        function ConfirmDelete(id) {
+            $("#hiddenId").val(id);
+            $("#modal-warning").modal("show");
+        }
+
+        var Delete = function () {
+            var id = $("#hiddenId").val();
+            $.ajax({
+                type: "GET",
+                url: "/Yonetici/SilYevmiyeDefteriKlasorden",
+                data: {
+                    id: id
+                },
+                success: function (result) {
+                    $("#modal-warning").modal("hide");
+                    location.reload(true);
+                }
+            })
+        }
+        function ConfirmDeleteAll() {
+            $("#modal-warning-all").modal("show");
+        }
+        var DeleteAll = function () {
+            $.ajax({
+                type: "GET",
+                url: "/Yonetici/SilYevmiyeDefterleri",
+                data: {
+                },
+                success: function (result) {
+                    $("#modal-warning-all").modal("hide");
+                    location.reload(true);
+                }
+            })
+        }
+
+        function sureBaslat() {
+            setInterval(function () {
+                var gecenTime = parseInt(document.getElementById('gecenSure2').innerText);
+                var dakika = Math.floor(gecenTime / 60);
+                var saniye = gecenTime % 60;
+
+                var saniyeString = "";
+                if (saniye < 10) { saniyeString = "0" + saniye.toString(); }
+                else { saniyeString = saniye.toString(); }
+
+                document.getElementById('gecenSure').innerText = dakika.toString() + ":" + saniyeString.toString();
+                gecenTime = gecenTime + 1;
+                document.getElementById('gecenSure2').innerText = gecenTime;
+
+                var saniyeBes = gecenTime % 5;
+                if (saniyeBes == 0) {
+                    denetimKontrol();
+                }
+            }, 1000)
+        }
+
+        function denetimKontrol() {
+            var denetimId = $("#hiddenId2").val();
+            var denetimIdYeni = '{ "denetimId": "' + denetimId + '"}';
+            $.ajax({
+                type: "POST",
+                url: "https://netdenetdurumservis.azurewebsites.net/api/Durum",
+                data: denetimIdYeni,
+                contentType: "application/json",
+                accepts: "application/json",
+            }).done(function (result) {
+                var someSessionVariable = result;
+                if (someSessionVariable.toString() == "tamam") {
+                    document.getElementById('guncelleme').innerText = "Denetiminiz Tamamlandı.";
+                    $('.progress-bar').css('width', 100 + '%').attr('aria-valuenow', 100);
+                    document.getElementById('labelyuzde').innerText = "100%";
+                    $('#gecenSure').hide();
+                    $('#progressId').hide();
+                    $('#gifId').hide();
+                    $('#bekleme').hide();
+                }
+                else if (someSessionVariable.toString() == "devam") {
+                    document.getElementById('guncelleme').innerText = "Mizanlar Oluşturuluyor.";
+                    $('.progress-bar').css('width', 40 + '%').attr('aria-valuenow', 40);
+                    document.getElementById('labelyuzde').innerText = "40%";
+
+                }
+                else if (someSessionVariable.toString() == "mizan") {
+                    document.getElementById('guncelleme').innerText = "Kurallar Uygulanıyor.";
+                    $('.progress-bar').css('width', 60 + '%').attr('aria-valuenow', 60);
+                    document.getElementById('labelyuzde').innerText = "60%";
+                }
+                else if (someSessionVariable.toString() == "kural") {
+                    document.getElementById('guncelleme').innerText = "Raporlar Oluşturuluyor";
+                    $('.progress-bar').css('width', 80 + '%').attr('aria-valuenow', 80);
+                    document.getElementById('labelyuzde').innerText = "80%";
+                }
+                else if (someSessionVariable.toString() == "rapor") {
+                    document.getElementById('guncelleme').innerText = "Denetim Tamamlandı.";
+                    $('.progress-bar').css('width', 100 + '%').attr('aria-valuenow', 100);
+                    document.getElementById('labelyuzde').innerText = "100%";
+                    $('#gecenSure').hide();
+                    $('#progressId').hide();
+                    $('#gifId').hide();
+                    $('#bekleme').hide();
+                }
+            });
+        }
+
+        $("#btnDenetimBaslat").click(function () {
+            var x = document.getElementById("modalPopup");
+            var y = document.getElementById("content-wrapper");
+            var denetimId = $("#hiddenId2").val();
+            x.style.display = "block";
+            y.style.opacity = "0.3"
+            sureBaslat();
+            $.ajax({
+                type: "POST",
+                url: "/Yonetici/DenetimBaslat",
+                data: {
+                    denetimId: denetimId
+                },
+                success: function (response) {
+                    location.href = "/Yonetici/YoneticiDenetimList";
+                },
+                Error: function () {
+                    location.href = "/Yonetici/EditDenetim?id=" + denetimId;
+                }
+            });
+        });
+
+        $("#xmlSec").change(function () {
+            fileCount = this.files.length;
+            document.getElementById("xmlLabel").innerHTML = "Defter Seçildi.";
+            document.getElementById("xmlLabel").style.backgroundColor = "Darkgrey";
+            document.getElementById("fileName").innerHTML = fileCount+" Dosya Seçildi";
+        });</script>
+}
+
+
+
+
+

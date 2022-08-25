@@ -1,0 +1,81 @@
+﻿@model IEnumerable<DKN.Models.RAPOR>
+@{
+    ViewBag.Title = "Son Denetimler Rapor";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+  
+}
+
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>  @Html.Partial("_Message")</h1>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        <div class="row" style="margin-top:10px;">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="box box-primary">
+                    <div class="box-header">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <h4><b>Raporlar</b></h4>
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+                <!-- /.box-header -->
+                <div class="">
+                    <table id="denetimTbl" class="table table-bordered table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th style="width:30px">S.NO</th>
+                                <th>AD</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{int RowNo = 0;}
+                            @foreach (var item in Model)
+                            {
+
+                                <tr>
+                                    <td style=""> @{RowNo++;} @RowNo</td>
+                                    @if (@item.AD.Contains("MUHASEBE"))
+                                    {
+                                        <td><span style="font-size:medium" class="label label-success"> @Html.DisplayFor(modelItem => item.AD)</span></td>
+                                    }
+                                    else if (@item.AD.Contains("VERGİ"))
+                                    {
+                                        <td><span style="font-size:medium" class="label label-danger"> @Html.DisplayFor(modelItem => item.AD)</span></td>
+                                    }
+                                    else if (@item.AD.Contains("HİLE"))
+                                    {
+                                        <td><span style="font-size:medium" class="label label-default"> @Html.DisplayFor(modelItem => item.AD)</span></td>
+                                    }
+                                    else if (@item.AD.Contains("PERFORMANS"))
+                                    {
+                                        <td> <span style="font-size:medium" class="label label-primary">@Html.DisplayFor(modelItem => item.AD)</span></td>
+                                    }
+                                    else
+                                    {
+                                        <td><span style="font-size:medium" class="label label-default"> @Html.DisplayFor(modelItem => item.AD)</span></td>
+                                    }
+                                    <td>
+                                        @Html.ActionLink(" ", "IndirRapor", new { raporId = item.LOGICALREF }, new { @class = "btn btn-success fa fa-download" })
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+        </div>
+        <!-- /.col -->
+    </section>
+    <!-- /.content -->
+</div>
+

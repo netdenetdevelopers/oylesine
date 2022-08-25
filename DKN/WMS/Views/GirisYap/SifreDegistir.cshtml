@@ -1,0 +1,91 @@
+﻿@{ ViewBag.Title = "Şifre Değiştir";
+    Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+
+<div class="content-wrapper">
+    <section class="content-header">
+        <h1> @Html.Partial("_Message")</h1>
+    </section>
+    <section class="content">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-6 col-md-offset-3">
+                <!-- general form elements -->
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+                        <h3 class="box-title"><b>Şifre Değiştirme Ekranı</b></h3>
+
+                    </div>
+
+                    <!-- /.box-header -->
+                    <!-- form start -->
+                    @using (Html.BeginForm("SifreDegistir", "GirisYap", FormMethod.Post))
+                    {
+        @Html.AntiForgeryToken();
+<div class="box-body">
+    <div class="form-group">
+        <label>Mevcut Şifre</label>
+        <input type="password" name="eskiSifre" id="eskiSifreId" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Yeni Şifre</label>
+        <input type="password" name="yeniSifre" id="yeniSifreId" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Yeni Şifre Tekrar</label>
+        <input type="password" name="yeniSifreTekrar" id="yeniSifreTekrarId" class="form-control" />
+    </div>
+    <label id="labelDegerKontrol"></label>
+</div> <!-- /.box-body -->
+                <div class="box-footer">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <center>
+                                <button type="submit" id="guncelleBtn" class="btn btn-primary fa fa-edit"> Güncelle </button>
+                            </center>
+                        </div>
+                    </div>
+
+                </div>}
+                </div>
+
+            </div>
+            <!--/.col (left) -->
+
+        </div>
+        <!-- /.row -->
+    </section>
+    <!-- /.content -->
+</div>
+@section Scripts
+{
+
+    <script type="text/javascript">document.getElementById("yeniSifreTekrarId").addEventListener("keyup", testGirilenDeger);
+
+        function testGirilenDeger() {
+            var yeniSifreTekrar = document.getElementById("yeniSifreTekrarId");
+            var yeniSifre = document.getElementById("yeniSifreId");
+            var eskiSifre = document.getElementById("eskiSifreId");
+            var lblYanlis = document.getElementById("labelDegerKontrol");
+            if (yeniSifre.value != yeniSifreTekrar.value ) {
+                lblYanlis.style.color = "red";
+                yeniSifre.style.borderColor = "red";
+                yeniSifreTekrar.style.borderColor = "red";
+                document.getElementById('labelDegerKontrol').innerHTML = "Girilen İki Şifre Aynı Değil.";
+                document.getElementById('guncelleBtn').disabled = true;
+            }
+            else {
+                document.getElementById('labelDegerKontrol').innerHTML = " ";
+                yeniSifre.style.borderColor = "#2EFE2E";
+                yeniSifreTekrar.style.borderColor = "#2EFE2E";
+                document.getElementById('guncelleBtn').disabled = false;
+
+            }
+        }</script>
+
+}
+
+
+
+
+

@@ -1,0 +1,171 @@
+﻿@model DKN.Models.FIRMA
+
+@{ ViewBag.Title = "Firma Güncelle";
+    Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>  @Html.Partial("_Message")</h1>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-6 col-md-offset-2">
+                <div class="alert alert-info alert-dismissible">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <h4><i class="icon fa fa-info"></i> Dikkat!</h4>
+                    Bu sayfadaki VKN, Firma ismi ve Logo hazırlanacak rapor kapağında yer alması içindir. Söz konusu bilgilerin gerçek olmaktan ziyade kullanıcı için ayırt edici olması önemlidir.
+                </div>
+                <!-- general form elements -->
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+                        <h3 class="box-title fa fa-edit"><b>Firma Güncelleme</b></h3>
+
+                    </div>
+                    @using (Html.BeginForm("EditFirma", "Kullanici", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+            @Html.AntiForgeryToken()
+                            <div class="box-body">
+                                <div class="form-group">
+                                    <label>VKN/TCKN</label>
+                                    @Html.TextBoxFor(m => m.VKNTCKN, new { @class = "form-control", @readonly = "readonly" })
+                                    @Html.ValidationMessageFor(m => m.VKNTCKN, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group">
+                                    <label>UNVAN</label>
+                                    @Html.TextBoxFor(m => m.UNVAN, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.UNVAN, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group row" style="padding-top:10px">
+                                    @*<div class="col-md-6">
+                                <input type="file" id="resimInpt" accept="image/*" name="uploadImages" multiple="multiple" class="input-files" />
+
+                            </div>*@
+
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <label for="resimInpt" id="rsmSec" class="btn btn-primary pull-left fa fa-user-plus"> Resim Seç</label>
+                                        <input type="file" id="resimInpt" accept="image/*" style="visibility:hidden;" name="uploadImages" class="input-files pull-left" />
+
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <label class="pull-left" id="fileName"></label>
+                                    </div>
+
+                                    @{ if (Model.resimSrc.Length > 10)
+                                        {
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div class="form-group pull-right">
+                                <a href="@Model.resimSrc">
+                                    <img src="@Model.resimSrc" class="profile-user-img  img-circle" style="margin-top:-10px;" height="75" width="100" />
+                                </a>&nbsp;&nbsp;
+                                <a href="#" onclick="ConfirmDeleteRsim('@Model.LOGICALREF')">Kaldır</a>
+                            </div>
+                        </div> } }
+                                </div>
+                                <div>
+                                    <div class="row" style="margin:5px">
+                                        <div class="row" style="margin:5px">
+                                            <div class="form-group col-md-4 col-sm-4 col-xs-4">
+                                                <label> Aktif/Pasif</label>
+                                                @Html.CheckBoxFor(model => model.kullanimDurumuBool, new { @class = "icheck-primary", @id = "kullanimDurumu" })
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                            <div class="box-footer">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <button type="submit" class="btn btn-primary pull-left fa fa-edit"> Güncelle </button>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <a href="/Kullanici/IndexKullanici" class="btn btn-warning pull-right fa fa-reply"> Firma Listesine Dön</a>
+                                                    </div>
+                                                </div>
+                                            </div>}
+                </div>
+
+            </div>
+            <!--/.col (left) -->
+
+        </div>
+        <!-- /.row -->
+    </section>
+    <div class="modal modal-danger fade" id="modal-resim-sil">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">İşlem Onayı</h4>
+                </div>
+                <div class="modal-body">
+                    <p>İşlemi Onaylamak İstediğinizden Emin misiniz?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline pull-left fa fa-close" data-dismiss="modal"> Vazgeç</button>
+                    <button type="button" onclick="SilResim()" class="btn btn-outline fa fa-minus"> Sil</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+    </div>
+    <input type="hidden" id="hiddenServisBakimLogicalRef" />
+    <input type="hidden" id="resimLogiclRef" />
+</div>
+
+@section Scripts
+{
+    <script src="~/Scripts/adminlte/js/easyzoom.js"></script>
+    <script type="text/javascript">
+        var $easyzoom = $('.easyzoom').easyZoom();
+        function SilResim() {
+            var id = $("#resimLogiclRef").val();
+            $.ajax({
+
+                type: "GET",
+                url: "/Kullanici/ResimSil",
+                data: {
+                    logiclRef: id
+                },
+                success: function () {
+
+                    $("#modal-resim-sil").modal("hide");
+                    location.reload(true);
+                    //$("#row_" + Id).remove();
+
+                }
+
+            })
+
+        }
+
+        function ConfirmDeleteRsim(resimLogiclRef) {
+
+            $("#resimLogiclRef").val(resimLogiclRef);
+            // alert(id);
+            $("#modal-resim-sil").modal('show');
+
+        }
+
+        $("#resimInpt").change(function () {
+            filsize = this.files[0].size;
+            if (filsize > 150*1024) {
+                document.getElementById("fileName").innerHTML = "Resim boyutu 150 KB(KiloByte)'tan küçük olmalıdır.";
+                document.getElementById("fileName").style.color = "Green";
+            }
+            else {
+                filename = this.files[0].name;
+                document.getElementById("rsmSec").innerHTML = "Resim Seçildi.";
+                document.getElementById("rsmSec").style.backgroundColor = "Red";
+                document.getElementById("fileName").innerHTML = filename;
+                document.getElementById("fileName").style.color = "Green";
+            }
+
+        });
+
+    </script>
+}

@@ -1,0 +1,106 @@
+﻿
+@{ ViewBag.Title = "Dosya içeriği";
+    Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+
+<div class="content-wrapper">
+    <section class="content-header">
+        <h1>
+            @Html.Partial("_Message")
+        </h1>
+
+    </section>
+    <section class="content">
+           
+                @Html.Raw(File.ReadAllText(Server.MapPath("~/Yevmiyeler/"+@Session["htmlDosyaAdi"].ToString()+".html")))
+         
+    </section>
+    <div class="modal modal-warning fade" id="modal-info">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">Detay</h4>
+                </div>
+                <div class="modal-body">
+                 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Kapat</button>
+                </div>
+            </div>
+             /.modal-content 
+        </div>
+         /.modal-dialog 
+    </div>
+
+
+    <input type="hidden" id="hiddenId" />
+</div>
+@section Scripts
+{
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#kullaniciTbl').DataTable()
+            //$('#kullaniciTbl1').DataTable({
+            //    'paging': true,
+            //    'lengthChange': false,
+            //    'searching': true,
+            //    'ordering': true,
+            //    'info': true,
+            //    'autoWidth': true,
+            //    'scroller': true
+            //})
+        })
+
+
+        // confirm dialog için kullanılan script
+        $(function () {
+            $('.ConfirmUpdate').change(function () {
+                var self = $(this);
+                var id = self.attr('id');
+                $("#hiddenId").val(id);
+                // alert(id);
+                $("#modal-warning").modal('show');
+
+
+            });
+        });
+
+        function Update() {
+            var id = $("#hiddenId").val();
+
+            $.ajax({
+
+                type: "GET",
+                url: "/Kullanicilar/GuncelleKullaniciDurum",
+                data: {
+                    id: id
+                },
+                success: function (result) {
+
+                    $("#modal-warning").modal("hide");
+                    // location.reload(true);
+                    //$("#row_" + Id).remove();
+
+                }
+
+            })
+
+        }
+
+        function Goster(id) {
+            $('#' + id).show();
+        }
+
+        function Gizle(id) {
+            $('#' + id).hide();
+        }</script>
+
+}
+
+
+

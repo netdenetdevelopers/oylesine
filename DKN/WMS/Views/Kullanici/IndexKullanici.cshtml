@@ -1,0 +1,150 @@
+﻿@model IEnumerable<DKN.Models.FIRMA>
+
+@{ ViewBag.Title = "Kullanıcı İşlemleri";
+    Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+<div class="content-wrapper">
+    <section class="content-header">
+        <h1>  @Html.Partial("_Message")</h1>
+    </section>
+    <section class="content">
+        <div class="row" style="margin-top:10px;">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="box box-primary">
+                    <div class="box-header">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <h4><b>FİRMALARIM</b></h4>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+
+                                @* @Html.ActionLink("Yeni Kullanıcı Ekle", "Create", new { @class = "btn btn-default btn-flat" })*@
+                                <a href="/Kullanici/CreateFirma" class="btn btn-success btn-flat pull-right fa fa-plus"> Firma</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="">
+                        <table id="firmaTbl" class="table table-bordered table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th style="width:30px">S.NO</th>
+                                    <th>RESİM</th>
+                                    <th>VKN/TCKN</th>
+                                    <th>UNVAN</th>
+                                    <th></th>
+                                    @*<th>DENETİMLER</th>*@
+                                    <th>GÜNCELLE</th>
+                                    <th>AKTİF/PASİF</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{int RowNo = 0;}
+                                @foreach (var item in Model)
+                                {
+                                <tr>
+                                    <td style=""> @{RowNo++;} @RowNo</td>
+                                    <td>
+                                        <form enctype="multipart/form-data">
+                                            <div class="form-group">
+                                                @if (!string.IsNullOrWhiteSpace(@item.resimSrc))
+                                                {
+                                <a href="@item.resimSrc">
+                                    <img src="@item.resimSrc" class="profile-user-img  img-circle" height="100" width="200" />
+                                </a> }
+                            else
+                            {
+                                <img src="../../Content/adminlte/img/noImage4.png" class="profile-user-img  img-circle" />}
+                                            </div>
+                                        </form>
+                                    </td>
+                                    @*<td> @Html.ActionLink(item.VKNTCKN, "EditFirma", new { id = item.LOGICALREF.ToString() })</td>*@
+                                    <td> @Html.DisplayFor(modelItem => item.VKNTCKN)</td>
+                                    <td> @Html.DisplayFor(modelItem => item.UNVAN)</td>
+                                    <td>
+                                        @Html.ActionLink(" Denetimler", "FirmaDenetimleri", new { firmaId = item.LOGICALREF.ToString() }, new { @class = "btn btn-info btn-lg fa fa-check-square-o", @stye = "font-size:large" })
+                                    </td>
+                                    <td>
+                                        @Html.ActionLink(" Güncelle", "EditFirma", new { id = item.LOGICALREF.ToString() }, new { @class = "btn btn-warning btn-lg fa fa-edit" })
+                                    </td>
+                                    <td>
+                                        @Html.CheckBoxFor(modelItem => item.kullanimDurumuBool, new { @class = "ConfirmUpdate", id = item.LOGICALREF, data_url = Url.Action("GuncelleFirmaDurum", "Kullanici") })
+                                    </td>
+
+                                </tr>
+}
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.box-body -->
+                </div>
+                <!-- /.box -->
+            </div>
+            <!-- /.col -->
+        </div>
+    </section>
+    <div class="modal modal-warning fade" id="modal-warning">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">İşlem Onayı</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Kaydın Durumunu Değiştirmek İstediğinizden Emin misiniz?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" onclick="location.reload(true)" class="btn btn-outline pull-left fa fa-close" data-dismiss="modal"> Vazgeç</button>
+                    <button type="button" onclick="Update()" class="btn btn-outline fa fa-edit"> Güncelle</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <input type="hidden" id="hiddenId" />
+</div>
+@section Scripts
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#firmaTbl').DataTable({
+                "scrollX": true
+            });
+        });
+
+        $(function () {
+            $('.ConfirmUpdate').change(function () {
+                var self = $(this);
+                var id = self.attr('id');
+                $("#hiddenId").val(id);
+                $("#modal-warning").modal('show');
+
+
+            });
+        });
+
+        function Update() {
+            var id = $("#hiddenId").val();
+            $.ajax({
+                type: "GET",
+                url: "/Kullanici/GuncelleFirmaDurum",
+                data: {
+                    id: id
+                },
+                success: function (result) {
+                    $("#modal-warning").modal("hide");
+                    location.reload();
+                }
+
+            })
+
+        }
+    </script>
+
+}
+
+

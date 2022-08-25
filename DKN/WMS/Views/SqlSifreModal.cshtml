@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "Sql Şifre Kontrol";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="content-wrapper">
+
+    <div class="modal modal-warning fade" id="modalSqlSifre">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                @using (Html.BeginForm("SqlGoster", "SevkPlan", FormMethod.Post))
+                {
+
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title">SQL Şifre Ekranı</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <input type="password" name="SQLsifre" id="sifre" placeholder="Şifre" class="form-control" />
+                        </div>
+                        @if (Session["labelGoster"]!=null) { 
+                        if (Session["labelGoster"].ToString()=="1") {
+                        <label style="color:red" id="sifreLabel">Şifre Hatalı...</label>
+                        }}
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-outline">Giriş</button>
+                    </div>
+                }
+            </div>
+                    
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+
+
+
+</div>
+<!-- /.content-wrapper -->
+
+
+
+@section Scripts
+{
+    <script type="text/javascript">
+        $(window).on("load", function () {
+            $("#modalSqlSifre").modal("show");
+        });
+    </script>
+}
+
+

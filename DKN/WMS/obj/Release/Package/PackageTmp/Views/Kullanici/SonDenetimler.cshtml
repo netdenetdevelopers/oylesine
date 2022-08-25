@@ -1,0 +1,131 @@
+﻿@model IEnumerable<DKN.Models.DENETIM>
+
+@{ ViewBag.Title = "Son Denetimler";
+    Layout = "~/Views/Shared/_Layout.cshtml"; }
+<div class="content-wrapper">
+    <section class="content-header">
+        <h1>  @Html.Partial("_Message")</h1>
+    </section>
+    <section class="content">
+        <div class="row" style="margin-top:10px;">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="box box-primary">
+                    <div class="box-header">
+                        <div class="row" style="margin-bottom:0px;">
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <h4><b>Son Denetimler</b></h4>
+                                <hr style="margin-top:0px; margin-bottom:0px;" />
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                @* @Html.ActionLink("Yeni Kullanıcı Ekle", "Create", new { @class = "btn btn-default btn-flat" })*@
+                                @*<a href="/Kullanici/CreateDenetim" class="btn btn-success btn-flat pull-right fa fa-plus"> Denetim </a>*@
+                                @*@Html.ActionLink(" Geri Dön", "IndexKullanici", new { }, new { @class = "btn btn-warning btn-flat fa fa-reply  pull-right" })*@
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="">
+                        <table id="denetimTbl" class="table table-bordered table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th style="width:30px">S.NO</th>
+                                    <th>RESİM</th>
+                                    <th>UNVAN</th>
+                                    <th>VKNTCKN</th>
+                                    <th>YIL</th>
+                                    <th>DÖNEM/AY</th>
+                                    <th>AD</th>
+                                    <th></th>
+                                    <th>TARIH</th>
+                                    <th>KAPSAM</th>
+                                    <th>ALT KAPSAM</th>
+                                    <th>SÜRE</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{int RowNo = 0;}
+                                @foreach (var item in Model)
+                                {
+                                <tr>
+                                    <td style=""> @{RowNo++;} @RowNo</td>
+                                    <td>
+                                        @if (!string.IsNullOrWhiteSpace(@item.resimSrc))
+                                        {
+                                <a href="@item.resimSrc">
+                                    <img src="@item.resimSrc" class="profile-user-img  img-circle" height="100" width="100" />
+                                </a> }
+                            else
+                            {
+                                <img src="../../Content/adminlte/img/noImage4.png" class="profile-user-img  img-circle" />}
+                                    </td>
+                                    <td> @Html.DisplayFor(modelItem => item.firmaUnvan)</td>
+                                    <td> @Html.DisplayFor(modelItem => item.firmaVkn)</td>
+                                    <td> @Html.DisplayFor(modelItem => item.yilAd)</td>
+                                    <td> @Html.DisplayFor(modelItem => item.donemAy)</td>
+                                    <td> @Html.DisplayFor(modelItem => item.AD)</td>
+                                    @*@foreach (var itemRapor in item.raporList)
+        {
+            @Html.ActionLink(" "+itemRapor.AD, "IndirRapor", new { raporId = itemRapor.LOGICALREF }, new { @class = "btn btn-success fa fa-download" })
+
+        }*@
+                                    <td>@Html.ActionLink("Raporlar", "SonDenetimlerRapor", new { denetimId = item.LOGICALREF }, new { @class = "btn btn-success" })</td>
+
+
+
+                                    <td> @Html.DisplayFor(modelItem => item.TARIH)</td>
+                                    <td style="white-space: nowrap;">
+                                        <p>
+                                            @foreach (var kapsam in item.kapsamList)
+                                            {
+
+                                                if (@kapsam.KISA_AD.Equals("PD"))
+                                                  {
+                                                    <span style="font-size:smaller" class="label label-success">(@kapsam.KISA_AD) @kapsam.AD</span> }
+                                                if (@kapsam.KISA_AD.Equals("GVD"))
+                                                {
+                                                    <span style="font-size:smaller" class="label label-danger">(@kapsam.KISA_AD) @kapsam.AD</span> }
+                                                if (@kapsam.KISA_AD.Equals("AVD"))
+                                                {
+                                                    <span style="font-size:smaller" class="label label-primary">(@kapsam.KISA_AD) @kapsam.AD</span> }
+                                                if (@kapsam.KISA_AD.Equals("HD"))
+                                                {
+                                                    <span style="font-size:smaller" class="label label-default">(@kapsam.KISA_AD) @kapsam.AD</span>}
+
+                                            }
+                                        </p>
+
+                                    </td>
+                                    <td>
+                                        @foreach (var altKapsam in item.altKapsamList)
+                                        {
+                                <span style="font-size:smaller" class="badge bg-light-blue-active">@altKapsam.AD</span>}
+                                    </td>
+                                    <td> @Html.DisplayFor(modelItem => item.SURE)</td>
+
+                                </tr>}
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.box-body -->
+                </div>
+                <!-- /.box -->
+            </div>
+            <!-- /.col -->
+        </div>
+    </section>
+    <input type="hidden" id="hiddenId" />
+</div>
+@section Scripts
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#denetimTbl').DataTable({
+                "scrollX": true
+            });
+        });
+
+    </script>
+
+}
+
+

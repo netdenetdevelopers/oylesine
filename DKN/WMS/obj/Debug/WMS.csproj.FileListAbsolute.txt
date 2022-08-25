@@ -1,0 +1,1492 @@
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\WMS.dll.config
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\WMS.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\WMS.pdb
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\csc.exe
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\csc.exe.config
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\csc.rsp
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\csi.exe
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\csi.exe.config
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\csi.rsp
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.AppContext.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.Collections.Immutable.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.Console.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.Globalization.Calendars.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.IO.Compression.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.IO.FileSystem.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.Net.Http.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.Net.Sockets.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.ValueTuple.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.Xml.XPath.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\vbc.exe
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\vbc.exe.config
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\vbc.rsp
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\VBCSCompiler.exe
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\roslyn\VBCSCompiler.exe.config
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\Antlr3.Runtime.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\Microsoft.Web.Infrastructure.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\Newtonsoft.Json.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\System.Web.Helpers.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\System.Web.Mvc.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\System.Web.Optimization.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\System.Web.Razor.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\System.Web.WebPages.Deployment.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\System.Web.WebPages.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\System.Web.WebPages.Razor.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\WebGrease.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\System.Web.Helpers.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\System.Web.Mvc.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\System.Web.Optimization.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\System.Web.Razor.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\System.Web.WebPages.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\System.Web.WebPages.Deployment.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\System.Web.WebPages.Razor.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\Newtonsoft.Json.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\Antlr3.Runtime.pdb
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\obj\Debug\WMS.csprojAssemblyReference.cache
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\obj\Debug\WMS.csproj.CoreCompileInputs.cache
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\obj\Debug\WMS.csproj.CopyComplete
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\obj\Debug\WMS.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\WMS\WMS\WMS\obj\Debug\WMS.pdb
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\WMS.dll.config
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\WMS.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\WMS.pdb
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\csc.exe
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\csc.exe.config
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\csc.rsp
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\csi.exe
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\csi.exe.config
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\csi.rsp
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\Microsoft.Managed.Core.targets
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.AppContext.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.Collections.Immutable.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.Console.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.Globalization.Calendars.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.IO.Compression.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.IO.FileSystem.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.Net.Http.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.Net.Sockets.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.Reflection.Metadata.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.ValueTuple.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.Xml.XmlDocument.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.Xml.XPath.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\vbc.exe
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\vbc.exe.config
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\vbc.rsp
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\VBCSCompiler.exe
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\roslyn\VBCSCompiler.exe.config
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\Antlr3.Runtime.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\Microsoft.Web.Infrastructure.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\MvcCheckBoxList.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\Newtonsoft.Json.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\System.Web.Helpers.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\System.Web.Mvc.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\System.Web.Optimization.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\System.Web.Razor.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\System.Web.WebPages.Deployment.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\System.Web.WebPages.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\System.Web.WebPages.Razor.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\WebGrease.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\System.Web.Helpers.xml
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\System.Web.Mvc.xml
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\System.Web.Optimization.xml
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\System.Web.Razor.xml
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\System.Web.WebPages.xml
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\System.Web.WebPages.Deployment.xml
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\System.Web.WebPages.Razor.xml
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\Newtonsoft.Json.xml
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\Antlr3.Runtime.pdb
+D:\visualStudioProjeleri\2019\WMS\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\visualStudioProjeleri\2019\WMS\WMS\obj\Debug\WMS.csprojAssemblyReference.cache
+D:\visualStudioProjeleri\2019\WMS\WMS\obj\Debug\WMS.csproj.CoreCompileInputs.cache
+D:\visualStudioProjeleri\2019\WMS\WMS\obj\Debug\WMS.csproj.CopyComplete
+D:\visualStudioProjeleri\2019\WMS\WMS\obj\Debug\WMS.dll
+D:\visualStudioProjeleri\2019\WMS\WMS\obj\Debug\WMS.pdb
+C:\Users\GUVEN\source\repos\WMS\WMS\obj\Debug\WMS.csprojAssemblyReference.cache
+C:\Users\GUVEN\source\repos\WMS\WMS\obj\Debug\WMS.csproj.CoreCompileInputs.cache
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\WMS.dll.config
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\WMS.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\WMS.pdb
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\csc.exe
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\csc.exe.config
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\csc.rsp
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\csi.exe
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\csi.exe.config
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\csi.rsp
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.AppContext.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.Console.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.IO.Compression.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.Net.Http.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.Net.Sockets.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.ValueTuple.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\vbc.exe
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\vbc.exe.config
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\vbc.rsp
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\Antlr3.Runtime.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\MvcCheckBoxList.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\Newtonsoft.Json.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\System.Web.Helpers.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\System.Web.Mvc.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\System.Web.Optimization.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\System.Web.Razor.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\System.Web.WebPages.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\WebGrease.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\System.Web.Helpers.xml
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\System.Web.Mvc.xml
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\System.Web.Optimization.xml
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\System.Web.Razor.xml
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\System.Web.WebPages.xml
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\Newtonsoft.Json.xml
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\Antlr3.Runtime.pdb
+C:\Users\GUVEN\source\repos\WMS\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\GUVEN\source\repos\WMS\WMS\obj\Debug\WMS.csproj.CopyComplete
+C:\Users\GUVEN\source\repos\WMS\WMS\obj\Debug\WMS.dll
+C:\Users\GUVEN\source\repos\WMS\WMS\obj\Debug\WMS.pdb
+E:\downloads\WMS\WMS\bin\WMS.dll.config
+E:\downloads\WMS\WMS\bin\WMS.dll
+E:\downloads\WMS\WMS\bin\WMS.pdb
+E:\downloads\WMS\WMS\bin\roslyn\csc.exe
+E:\downloads\WMS\WMS\bin\roslyn\csc.exe.config
+E:\downloads\WMS\WMS\bin\roslyn\csc.rsp
+E:\downloads\WMS\WMS\bin\roslyn\csi.exe
+E:\downloads\WMS\WMS\bin\roslyn\csi.exe.config
+E:\downloads\WMS\WMS\bin\roslyn\csi.rsp
+E:\downloads\WMS\WMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\downloads\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\downloads\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\downloads\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\downloads\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\downloads\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\downloads\WMS\WMS\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\downloads\WMS\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\downloads\WMS\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\downloads\WMS\WMS\bin\roslyn\Microsoft.Managed.Core.targets
+E:\downloads\WMS\WMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\downloads\WMS\WMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.AppContext.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.Collections.Immutable.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.Console.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.Globalization.Calendars.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.IO.Compression.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.IO.FileSystem.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.Net.Http.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.Net.Sockets.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.Reflection.Metadata.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.ValueTuple.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.Xml.XmlDocument.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.Xml.XPath.dll
+E:\downloads\WMS\WMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\downloads\WMS\WMS\bin\roslyn\vbc.exe
+E:\downloads\WMS\WMS\bin\roslyn\vbc.exe.config
+E:\downloads\WMS\WMS\bin\roslyn\vbc.rsp
+E:\downloads\WMS\WMS\bin\roslyn\VBCSCompiler.exe
+E:\downloads\WMS\WMS\bin\roslyn\VBCSCompiler.exe.config
+E:\downloads\WMS\WMS\bin\Antlr3.Runtime.dll
+E:\downloads\WMS\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\downloads\WMS\WMS\bin\Microsoft.Web.Infrastructure.dll
+E:\downloads\WMS\WMS\bin\MvcCheckBoxList.dll
+E:\downloads\WMS\WMS\bin\Newtonsoft.Json.dll
+E:\downloads\WMS\WMS\bin\System.Web.Helpers.dll
+E:\downloads\WMS\WMS\bin\System.Web.Mvc.dll
+E:\downloads\WMS\WMS\bin\System.Web.Optimization.dll
+E:\downloads\WMS\WMS\bin\System.Web.Razor.dll
+E:\downloads\WMS\WMS\bin\System.Web.WebPages.Deployment.dll
+E:\downloads\WMS\WMS\bin\System.Web.WebPages.dll
+E:\downloads\WMS\WMS\bin\System.Web.WebPages.Razor.dll
+E:\downloads\WMS\WMS\bin\WebGrease.dll
+E:\downloads\WMS\WMS\bin\System.Web.Helpers.xml
+E:\downloads\WMS\WMS\bin\System.Web.Mvc.xml
+E:\downloads\WMS\WMS\bin\System.Web.Optimization.xml
+E:\downloads\WMS\WMS\bin\System.Web.Razor.xml
+E:\downloads\WMS\WMS\bin\System.Web.WebPages.xml
+E:\downloads\WMS\WMS\bin\System.Web.WebPages.Deployment.xml
+E:\downloads\WMS\WMS\bin\System.Web.WebPages.Razor.xml
+E:\downloads\WMS\WMS\bin\Newtonsoft.Json.xml
+E:\downloads\WMS\WMS\bin\Antlr3.Runtime.pdb
+E:\downloads\WMS\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\downloads\WMS\WMS\obj\Debug\WMS.csprojAssemblyReference.cache
+E:\downloads\WMS\WMS\obj\Debug\WMS.csproj.CoreCompileInputs.cache
+E:\downloads\WMS\WMS\obj\Debug\WMS.csproj.CopyComplete
+E:\downloads\WMS\WMS\obj\Debug\WMS.dll
+E:\downloads\WMS\WMS\obj\Debug\WMS.pdb
+E:\downloads\WMS\WMS\WMS\bin\WMS.dll.config
+E:\downloads\WMS\WMS\WMS\bin\WMS.dll
+E:\downloads\WMS\WMS\WMS\bin\WMS.pdb
+E:\downloads\WMS\WMS\WMS\bin\roslyn\csc.exe
+E:\downloads\WMS\WMS\WMS\bin\roslyn\csc.exe.config
+E:\downloads\WMS\WMS\WMS\bin\roslyn\csc.rsp
+E:\downloads\WMS\WMS\WMS\bin\roslyn\csi.exe
+E:\downloads\WMS\WMS\WMS\bin\roslyn\csi.exe.config
+E:\downloads\WMS\WMS\WMS\bin\roslyn\csi.rsp
+E:\downloads\WMS\WMS\WMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\downloads\WMS\WMS\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\Microsoft.Managed.Core.targets
+E:\downloads\WMS\WMS\WMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\downloads\WMS\WMS\WMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.AppContext.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.Collections.Immutable.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.Console.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.Globalization.Calendars.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.IO.Compression.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.IO.FileSystem.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.Net.Http.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.Net.Sockets.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.Reflection.Metadata.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.ValueTuple.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.Xml.XmlDocument.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.Xml.XPath.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\downloads\WMS\WMS\WMS\bin\roslyn\vbc.exe
+E:\downloads\WMS\WMS\WMS\bin\roslyn\vbc.exe.config
+E:\downloads\WMS\WMS\WMS\bin\roslyn\vbc.rsp
+E:\downloads\WMS\WMS\WMS\bin\roslyn\VBCSCompiler.exe
+E:\downloads\WMS\WMS\WMS\bin\roslyn\VBCSCompiler.exe.config
+E:\downloads\WMS\WMS\WMS\bin\Antlr3.Runtime.dll
+E:\downloads\WMS\WMS\WMS\bin\BouncyCastle.Crypto.dll
+E:\downloads\WMS\WMS\WMS\bin\Csv.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Charts.v20.2.Core.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.CodeParser.v20.2.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Data.v20.2.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.DataAccess.v20.2.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Office.v20.2.Core.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Pdf.v20.2.Core.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.PivotGrid.v20.2.Core.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Printing.v20.2.Core.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.RichEdit.v20.2.Core.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.RichEdit.v20.2.Export.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Sparkline.v20.2.Core.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Utils.v20.2.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.ASPxThemes.v20.2.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.Mvc5.v20.2.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.Resources.v20.2.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.v20.2.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Xpo.v20.2.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.XtraCharts.v20.2.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.XtraGauges.v20.2.Core.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.XtraReports.v20.2.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.XtraReports.v20.2.Web.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.XtraReports.v20.2.Web.WebForms.dll
+E:\downloads\WMS\WMS\WMS\bin\FluentFTP.dll
+E:\downloads\WMS\WMS\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\downloads\WMS\WMS\WMS\bin\Microsoft.DotNet.PlatformAbstractions.dll
+E:\downloads\WMS\WMS\WMS\bin\Microsoft.Extensions.DependencyModel.dll
+E:\downloads\WMS\WMS\WMS\bin\Microsoft.Web.Infrastructure.dll
+E:\downloads\WMS\WMS\WMS\bin\MvcCheckBoxList.dll
+E:\downloads\WMS\WMS\WMS\bin\Newtonsoft.Json.dll
+E:\downloads\WMS\WMS\WMS\bin\SdkApi.Core.dll
+E:\downloads\WMS\WMS\WMS\bin\SdkApi.Desktop.dll
+E:\downloads\WMS\WMS\WMS\bin\SdkApi.Desktop.Usb.dll
+E:\downloads\WMS\WMS\WMS\bin\SharpSnmpLib.dll
+E:\downloads\WMS\WMS\WMS\bin\System.Web.Helpers.dll
+E:\downloads\WMS\WMS\WMS\bin\System.Web.Http.dll
+E:\downloads\WMS\WMS\WMS\bin\System.Web.Http.WebHost.dll
+E:\downloads\WMS\WMS\WMS\bin\System.Web.Mvc.dll
+E:\downloads\WMS\WMS\WMS\bin\System.Web.Optimization.dll
+E:\downloads\WMS\WMS\WMS\bin\System.Web.Razor.dll
+E:\downloads\WMS\WMS\WMS\bin\System.Web.WebPages.Deployment.dll
+E:\downloads\WMS\WMS\WMS\bin\System.Web.WebPages.dll
+E:\downloads\WMS\WMS\WMS\bin\System.Web.WebPages.Razor.dll
+E:\downloads\WMS\WMS\WMS\bin\WebGrease.dll
+E:\downloads\WMS\WMS\WMS\bin\ZebraPrinterSdk.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Pdf.v20.2.Drawing.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Data.Desktop.v20.2.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.ASPxHtmlEditor.v20.2.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.ASPxDiagram.v20.2.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.XtraCharts.v20.2.Web.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.ASPxGantt.v20.2.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.ASPxTreeList.v20.2.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.ASPxSpellChecker.v20.2.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.ASPxPivotGrid.v20.2.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.ASPxRichEdit.v20.2.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.ASPxScheduler.v20.2.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.Desktop.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.SpellChecker.v20.2.Core.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.ASPxSpreadsheet.v20.2.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Spreadsheet.v20.2.Core.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.DataVisualization.v20.2.Core.dll
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Images.v20.2.dll
+E:\downloads\WMS\WMS\WMS\bin\BouncyCastle.Crypto.xml
+E:\downloads\WMS\WMS\WMS\bin\Csv.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Data.v20.2.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.DataAccess.v20.2.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Office.v20.2.Core.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Pdf.v20.2.Core.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.PivotGrid.v20.2.Core.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Printing.v20.2.Core.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.RichEdit.v20.2.Core.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Sparkline.v20.2.Core.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Utils.v20.2.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.Mvc5.v20.2.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.v20.2.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Xpo.v20.2.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.XtraCharts.v20.2.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.XtraGauges.v20.2.Core.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.XtraReports.v20.2.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.XtraReports.v20.2.Web.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.XtraReports.v20.2.Web.WebForms.xml
+E:\downloads\WMS\WMS\WMS\bin\FluentFTP.xml
+E:\downloads\WMS\WMS\WMS\bin\SdkApi.Core.xml
+E:\downloads\WMS\WMS\WMS\bin\SdkApi.Desktop.xml
+E:\downloads\WMS\WMS\WMS\bin\System.Web.Http.xml
+E:\downloads\WMS\WMS\WMS\bin\System.Web.Http.WebHost.xml
+E:\downloads\WMS\WMS\WMS\bin\System.Web.Helpers.xml
+E:\downloads\WMS\WMS\WMS\bin\System.Web.Mvc.xml
+E:\downloads\WMS\WMS\WMS\bin\System.Web.Optimization.xml
+E:\downloads\WMS\WMS\WMS\bin\System.Web.Razor.xml
+E:\downloads\WMS\WMS\WMS\bin\System.Web.WebPages.xml
+E:\downloads\WMS\WMS\WMS\bin\System.Web.WebPages.Deployment.xml
+E:\downloads\WMS\WMS\WMS\bin\System.Web.WebPages.Razor.xml
+E:\downloads\WMS\WMS\WMS\bin\Newtonsoft.Json.xml
+E:\downloads\WMS\WMS\WMS\bin\Antlr3.Runtime.pdb
+E:\downloads\WMS\WMS\WMS\bin\ZebraPrinterSdk.xml
+E:\downloads\WMS\WMS\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Pdf.v20.2.Drawing.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Data.Desktop.v20.2.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.ASPxHtmlEditor.v20.2.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.ASPxDiagram.v20.2.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.XtraCharts.v20.2.Web.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.ASPxGantt.v20.2.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.ASPxTreeList.v20.2.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.ASPxSpellChecker.v20.2.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.ASPxPivotGrid.v20.2.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.ASPxRichEdit.v20.2.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.ASPxScheduler.v20.2.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.Desktop.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.SpellChecker.v20.2.Core.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Web.ASPxSpreadsheet.v20.2.xml
+E:\downloads\WMS\WMS\WMS\bin\DevExpress.Spreadsheet.v20.2.Core.xml
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.Data.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.Data.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.Data.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.Data.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.DataAccess.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.DataAccess.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.DataAccess.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.DataAccess.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.Office.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.Office.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.Office.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.Office.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.Pdf.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.Pdf.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.Pdf.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.Pdf.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.PivotGrid.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.PivotGrid.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.PivotGrid.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.PivotGrid.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.Printing.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.Printing.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.Printing.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.Printing.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.RichEdit.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.RichEdit.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.RichEdit.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.RichEdit.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.Sparkline.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.Sparkline.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.Sparkline.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.Sparkline.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.Utils.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.Utils.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.Utils.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.Utils.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.Web.Resources.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.Web.Resources.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.Web.Resources.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.Web.Resources.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.Web.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.Web.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.Web.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.Web.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.Xpo.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.Xpo.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.Xpo.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.Xpo.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.XtraCharts.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.XtraCharts.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.XtraCharts.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.XtraCharts.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.XtraGauges.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.XtraGauges.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.XtraGauges.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.XtraGauges.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.XtraReports.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.XtraReports.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.XtraReports.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.XtraReports.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.XtraReports.v20.2.Web.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.XtraReports.v20.2.Web.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.XtraReports.v20.2.Web.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.XtraReports.v20.2.Web.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\de\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\es\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ja\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\bin\ru\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+E:\downloads\WMS\WMS\WMS\obj\Debug\WMS.dll.licenses
+E:\downloads\WMS\WMS\WMS\obj\Debug\WMS.csproj.CoreCompileInputs.cache
+E:\downloads\WMS\WMS\WMS\obj\Debug\WMS.csproj.CopyComplete
+E:\downloads\WMS\WMS\WMS\obj\Debug\WMS.dll
+E:\downloads\WMS\WMS\WMS\obj\Debug\WMS.pdb
+E:\downloads\WMS\WMS\WMS\obj\Debug\WMS.csprojAssemblyReference.cache
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\WMS.dll.config
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\WMS.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\WMS.pdb
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\csc.exe
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\csc.exe.config
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\csc.rsp
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\csi.exe
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\csi.exe.config
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\csi.rsp
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.AppContext.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.Console.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.IO.Compression.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.Net.Http.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.Net.Sockets.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.ValueTuple.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\vbc.exe
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\vbc.exe.config
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\vbc.rsp
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\Antlr3.Runtime.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\BouncyCastle.Crypto.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\Csv.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\FluentFTP.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\Microsoft.Extensions.DependencyModel.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\MvcCheckBoxList.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\Newtonsoft.Json.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\SdkApi.Core.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\SdkApi.Desktop.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\SdkApi.Desktop.Usb.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\SharpSnmpLib.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\System.Net.Http.Formatting.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\System.Web.Helpers.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\System.Web.Http.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\System.Web.Http.WebHost.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\System.Web.Mvc.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\System.Web.Optimization.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\System.Web.Razor.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\System.Web.WebPages.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\WebGrease.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\ZebraPrinterSdk.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\BouncyCastle.Crypto.xml
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\Csv.xml
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\FluentFTP.xml
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\SdkApi.Core.xml
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\SdkApi.Desktop.xml
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\System.Net.Http.Formatting.xml
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\System.Web.Http.xml
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\System.Web.Http.WebHost.xml
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\System.Web.Helpers.xml
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\System.Web.Mvc.xml
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\System.Web.Optimization.xml
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\System.Web.Razor.xml
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\System.Web.WebPages.xml
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\Newtonsoft.Json.xml
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\Antlr3.Runtime.pdb
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\ZebraPrinterSdk.xml
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\obj\Debug\WMS.csprojAssemblyReference.cache
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\obj\Debug\WMS.dll.licenses
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\obj\Debug\WMS.csproj.CoreCompileInputs.cache
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\obj\Debug\WMS.csproj.CopyComplete
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\obj\Debug\WMS.dll
+C:\Users\GUVEN\Desktop\WMS\WMS\WMS\obj\Debug\WMS.pdb
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\WMS.dll.config
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\WMS.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\WMS.pdb
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\csc.exe
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\csc.exe.config
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\csc.rsp
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\csi.exe
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\csi.exe.config
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\csi.rsp
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.AppContext.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.Console.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.IO.Compression.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.Net.Http.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.ValueTuple.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\vbc.exe
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\vbc.exe.config
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\vbc.rsp
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\Antlr3.Runtime.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\BouncyCastle.Crypto.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\Csv.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Charts.v20.2.Core.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.CodeParser.v20.2.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Data.v20.2.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.DataAccess.v20.2.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Office.v20.2.Core.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Pdf.v20.2.Core.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.PivotGrid.v20.2.Core.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Printing.v20.2.Core.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.RichEdit.v20.2.Core.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.RichEdit.v20.2.Export.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Sparkline.v20.2.Core.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Utils.v20.2.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.ASPxThemes.v20.2.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.Mvc5.v20.2.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.Resources.v20.2.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.v20.2.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Xpo.v20.2.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.XtraCharts.v20.2.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.XtraGauges.v20.2.Core.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.XtraReports.v20.2.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.XtraReports.v20.2.Web.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.XtraReports.v20.2.Web.WebForms.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\FluentFTP.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\Microsoft.Extensions.DependencyModel.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\MvcCheckBoxList.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\NetOpenX.Rest.Client.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\Newtonsoft.Json.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\SdkApi.Core.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\SdkApi.Desktop.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\SdkApi.Desktop.Usb.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\SharpSnmpLib.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\System.Net.Http.Formatting.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\System.Web.Helpers.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\System.Web.Http.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\System.Web.Http.WebHost.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\System.Web.Mvc.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\System.Web.Optimization.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\System.Web.Razor.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\System.Web.WebPages.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\WebGrease.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ZebraPrinterSdk.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Pdf.v20.2.Drawing.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Data.Desktop.v20.2.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.ASPxHtmlEditor.v20.2.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.ASPxDiagram.v20.2.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.XtraCharts.v20.2.Web.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.ASPxGantt.v20.2.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.ASPxTreeList.v20.2.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.ASPxSpellChecker.v20.2.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.ASPxPivotGrid.v20.2.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.ASPxRichEdit.v20.2.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.ASPxScheduler.v20.2.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.Desktop.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.SpellChecker.v20.2.Core.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.ASPxSpreadsheet.v20.2.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Spreadsheet.v20.2.Core.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.DataVisualization.v20.2.Core.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Images.v20.2.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\BouncyCastle.Crypto.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\Csv.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Data.v20.2.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.DataAccess.v20.2.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Office.v20.2.Core.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Pdf.v20.2.Core.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.PivotGrid.v20.2.Core.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Printing.v20.2.Core.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.RichEdit.v20.2.Core.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Sparkline.v20.2.Core.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Utils.v20.2.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.Mvc5.v20.2.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.v20.2.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Xpo.v20.2.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.XtraCharts.v20.2.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.XtraGauges.v20.2.Core.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.XtraReports.v20.2.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.XtraReports.v20.2.Web.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.XtraReports.v20.2.Web.WebForms.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\FluentFTP.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\SdkApi.Core.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\SdkApi.Desktop.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\System.Web.Http.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\System.Web.Http.WebHost.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\System.Web.Helpers.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\System.Web.Mvc.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\System.Web.Optimization.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\System.Web.Razor.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\System.Web.WebPages.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\Newtonsoft.Json.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\Antlr3.Runtime.pdb
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ZebraPrinterSdk.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Pdf.v20.2.Drawing.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Data.Desktop.v20.2.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.ASPxHtmlEditor.v20.2.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.ASPxDiagram.v20.2.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.XtraCharts.v20.2.Web.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.ASPxGantt.v20.2.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.ASPxTreeList.v20.2.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.ASPxSpellChecker.v20.2.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.ASPxPivotGrid.v20.2.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.ASPxRichEdit.v20.2.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.ASPxScheduler.v20.2.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.Desktop.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.SpellChecker.v20.2.Core.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Web.ASPxSpreadsheet.v20.2.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\DevExpress.Spreadsheet.v20.2.Core.xml
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.Data.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.Data.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.Data.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.Data.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.DataAccess.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.DataAccess.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.DataAccess.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.DataAccess.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.Office.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.Office.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.Office.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.Office.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.PivotGrid.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.PivotGrid.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.PivotGrid.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.PivotGrid.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.Utils.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.Utils.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.Utils.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.Utils.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.Web.Resources.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.Web.Resources.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.Web.Resources.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.Web.Resources.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.Web.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.Web.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.Web.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.Web.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.Xpo.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.Xpo.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.Xpo.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.Xpo.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.XtraCharts.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.XtraCharts.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.XtraCharts.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.XtraCharts.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.XtraGauges.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.XtraGauges.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.XtraGauges.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.XtraGauges.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.XtraReports.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.XtraReports.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.XtraReports.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.XtraReports.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.XtraReports.v20.2.Web.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.XtraReports.v20.2.Web.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.XtraReports.v20.2.Web.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.XtraReports.v20.2.Web.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\de\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\es\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ja\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\bin\ru\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\obj\Debug\WMS.csprojAssemblyReference.cache
+C:\Users\ersan\Desktop\WMS\WMS\WMS\obj\Debug\WMS.dll.licenses
+C:\Users\ersan\Desktop\WMS\WMS\WMS\obj\Debug\WMS.csproj.CoreCompileInputs.cache
+C:\Users\ersan\Desktop\WMS\WMS\WMS\obj\Debug\WMS.csproj.CopyComplete
+C:\Users\ersan\Desktop\WMS\WMS\WMS\obj\Debug\WMS.dll
+C:\Users\ersan\Desktop\WMS\WMS\WMS\obj\Debug\WMS.pdb
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\WMS.dll.config
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\WMS.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\WMS.pdb
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\csc.exe
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\csc.exe.config
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\csc.rsp
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\csi.exe
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\csi.exe.config
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\csi.rsp
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\Microsoft.Managed.Core.targets
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.AppContext.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.Collections.Immutable.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.Console.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.Globalization.Calendars.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.IO.Compression.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.IO.FileSystem.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.Net.Http.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.Net.Sockets.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.Reflection.Metadata.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.ValueTuple.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.Xml.XmlDocument.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.Xml.XPath.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\vbc.exe
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\vbc.exe.config
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\vbc.rsp
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\VBCSCompiler.exe
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\roslyn\VBCSCompiler.exe.config
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\Antlr3.Runtime.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\BouncyCastle.Crypto.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\Csv.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\FluentFTP.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\Microsoft.DotNet.PlatformAbstractions.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\Microsoft.Extensions.DependencyModel.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\Microsoft.Web.Infrastructure.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\MvcCheckBoxList.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\Newtonsoft.Json.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\SdkApi.Core.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\SdkApi.Desktop.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\SdkApi.Desktop.Usb.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\SharpSnmpLib.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\System.Web.Helpers.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\System.Web.Http.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\System.Web.Http.WebHost.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\System.Web.Mvc.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\System.Web.Optimization.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\System.Web.Razor.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\System.Web.WebPages.Deployment.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\System.Web.WebPages.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\System.Web.WebPages.Razor.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\WebGrease.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ZebraPrinterSdk.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Pdf.v20.2.Drawing.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Data.Desktop.v20.2.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Web.ASPxHtmlEditor.v20.2.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Web.ASPxDiagram.v20.2.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.XtraCharts.v20.2.Web.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Web.ASPxGantt.v20.2.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Web.ASPxTreeList.v20.2.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Web.ASPxSpellChecker.v20.2.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Web.ASPxPivotGrid.v20.2.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Web.ASPxRichEdit.v20.2.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Web.ASPxScheduler.v20.2.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.Desktop.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.SpellChecker.v20.2.Core.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Web.ASPxSpreadsheet.v20.2.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Spreadsheet.v20.2.Core.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.DataVisualization.v20.2.Core.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Images.v20.2.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\BouncyCastle.Crypto.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\Csv.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Data.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.DataAccess.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Office.v20.2.Core.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Pdf.v20.2.Core.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.PivotGrid.v20.2.Core.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Printing.v20.2.Core.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.RichEdit.v20.2.Core.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Sparkline.v20.2.Core.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Utils.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Web.Mvc5.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Web.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Xpo.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.XtraCharts.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.XtraGauges.v20.2.Core.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.XtraReports.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.XtraReports.v20.2.Web.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.XtraReports.v20.2.Web.WebForms.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\FluentFTP.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\SdkApi.Core.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\SdkApi.Desktop.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\System.Web.Http.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\System.Web.Http.WebHost.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\System.Web.Helpers.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\System.Web.Mvc.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\System.Web.Optimization.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\System.Web.Razor.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\System.Web.WebPages.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\System.Web.WebPages.Deployment.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\System.Web.WebPages.Razor.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\Newtonsoft.Json.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\Antlr3.Runtime.pdb
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ZebraPrinterSdk.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Pdf.v20.2.Drawing.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Data.Desktop.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Web.ASPxHtmlEditor.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Web.ASPxDiagram.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.XtraCharts.v20.2.Web.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Web.ASPxGantt.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Web.ASPxTreeList.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Web.ASPxSpellChecker.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Web.ASPxPivotGrid.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Web.ASPxRichEdit.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Web.ASPxScheduler.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.Desktop.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.SpellChecker.v20.2.Core.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Web.ASPxSpreadsheet.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\DevExpress.Spreadsheet.v20.2.Core.xml
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.Data.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.Data.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.Data.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.Data.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.DataAccess.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.DataAccess.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.DataAccess.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.DataAccess.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.Office.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.Office.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.Office.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.Office.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.Printing.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.Printing.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.Printing.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.Printing.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.Utils.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.Utils.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.Utils.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.Utils.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.Web.Resources.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.Web.Resources.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.Web.Resources.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.Web.Resources.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.Web.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.Web.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.Web.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.Web.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.Xpo.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.Xpo.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.Xpo.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.Xpo.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.XtraCharts.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.XtraCharts.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.XtraCharts.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.XtraCharts.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.XtraReports.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.XtraReports.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.XtraReports.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.XtraReports.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.XtraReports.v20.2.Web.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.XtraReports.v20.2.Web.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.XtraReports.v20.2.Web.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.XtraReports.v20.2.Web.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\de\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\es\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ja\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\bin\ru\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\obj\Debug\WMS.csprojAssemblyReference.cache
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\obj\Debug\WMS.dll.licenses
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\obj\Debug\WMS.csproj.CoreCompileInputs.cache
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\obj\Debug\WMS.csproj.CopyComplete
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\obj\Debug\WMS.dll
+D:\İŞ YERİ\Zahid Bey\OtoIsmail\WMS\WMS\WMS\obj\Debug\WMS.pdb
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\WMS.dll.config
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\WMS.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\WMS.pdb
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\csc.exe
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\csc.exe.config
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\csc.rsp
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\csi.exe
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\csi.exe.config
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\csi.rsp
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\Microsoft.Managed.Core.targets
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.AppContext.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.Collections.Immutable.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.Console.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.Globalization.Calendars.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.IO.Compression.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.IO.FileSystem.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.Net.Http.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.Net.Sockets.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.Reflection.Metadata.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.ValueTuple.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.Xml.XmlDocument.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.Xml.XPath.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\vbc.exe
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\vbc.exe.config
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\vbc.rsp
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\VBCSCompiler.exe
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\roslyn\VBCSCompiler.exe.config
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\Antlr3.Runtime.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\BouncyCastle.Crypto.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\Csv.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\FluentFTP.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\Microsoft.DotNet.PlatformAbstractions.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\Microsoft.Extensions.DependencyModel.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\Microsoft.Web.Infrastructure.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\MvcCheckBoxList.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\Newtonsoft.Json.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\SdkApi.Core.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\SdkApi.Desktop.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\SdkApi.Desktop.Usb.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\SharpSnmpLib.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\System.Web.Helpers.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\System.Web.Http.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\System.Web.Http.WebHost.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\System.Web.Mvc.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\System.Web.Optimization.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\System.Web.Razor.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\System.Web.WebPages.Deployment.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\System.Web.WebPages.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\System.Web.WebPages.Razor.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\WebGrease.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ZebraPrinterSdk.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Pdf.v20.2.Drawing.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Data.Desktop.v20.2.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Web.ASPxHtmlEditor.v20.2.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Web.ASPxDiagram.v20.2.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.XtraCharts.v20.2.Web.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Web.ASPxGantt.v20.2.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Web.ASPxTreeList.v20.2.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Web.ASPxSpellChecker.v20.2.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Web.ASPxPivotGrid.v20.2.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Web.ASPxRichEdit.v20.2.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Web.ASPxScheduler.v20.2.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.Desktop.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.SpellChecker.v20.2.Core.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Web.ASPxSpreadsheet.v20.2.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Spreadsheet.v20.2.Core.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.DataVisualization.v20.2.Core.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Images.v20.2.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\BouncyCastle.Crypto.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\Csv.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Data.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.DataAccess.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Office.v20.2.Core.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Pdf.v20.2.Core.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.PivotGrid.v20.2.Core.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Printing.v20.2.Core.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.RichEdit.v20.2.Core.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Sparkline.v20.2.Core.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Utils.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Web.Mvc5.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Web.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Xpo.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.XtraCharts.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.XtraGauges.v20.2.Core.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.XtraReports.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.XtraReports.v20.2.Web.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.XtraReports.v20.2.Web.WebForms.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\FluentFTP.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\SdkApi.Core.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\SdkApi.Desktop.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\System.Web.Http.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\System.Web.Http.WebHost.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\System.Web.Helpers.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\System.Web.Mvc.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\System.Web.Optimization.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\System.Web.Razor.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\System.Web.WebPages.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\System.Web.WebPages.Deployment.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\System.Web.WebPages.Razor.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\Newtonsoft.Json.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\Antlr3.Runtime.pdb
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ZebraPrinterSdk.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Pdf.v20.2.Drawing.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Data.Desktop.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Web.ASPxHtmlEditor.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Web.ASPxDiagram.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.XtraCharts.v20.2.Web.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Web.ASPxGantt.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Web.ASPxTreeList.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Web.ASPxSpellChecker.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Web.ASPxPivotGrid.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Web.ASPxRichEdit.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Web.ASPxScheduler.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.Desktop.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.SpellChecker.v20.2.Core.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Web.ASPxSpreadsheet.v20.2.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\DevExpress.Spreadsheet.v20.2.Core.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.Data.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.Data.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.Data.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.Data.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.DataAccess.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.DataAccess.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.DataAccess.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.DataAccess.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.Office.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.Office.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.Office.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.Office.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.PivotGrid.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.Printing.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.Printing.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.Printing.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.Printing.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.Utils.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.Utils.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.Utils.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.Utils.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.Web.Resources.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.Web.Resources.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.Web.Resources.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.Web.Resources.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.Web.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.Web.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.Web.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.Web.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.Xpo.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.Xpo.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.Xpo.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.Xpo.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.XtraCharts.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.XtraCharts.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.XtraCharts.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.XtraCharts.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.XtraGauges.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.XtraReports.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.XtraReports.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.XtraReports.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.XtraReports.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.XtraReports.v20.2.Web.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.XtraReports.v20.2.Web.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.XtraReports.v20.2.Web.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.XtraReports.v20.2.Web.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\de\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\es\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ja\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\bin\ru\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\obj\Debug\WMS.csprojAssemblyReference.cache
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\obj\Debug\WMS.dll.licenses
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\obj\Debug\WMS.csproj.CoreCompileInputs.cache
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\obj\Debug\WMS.csproj.CopyComplete
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\obj\Debug\WMS.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\WMS\WMS\obj\Debug\WMS.pdb

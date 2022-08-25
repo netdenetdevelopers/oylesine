@@ -1,0 +1,198 @@
+﻿@model DKN.Models.FIRMA
+
+@{ ViewBag.Title = "Firma Denetimleri";
+    Layout = "~/Views/Shared/_Layout.cshtml"; }
+@{var firmaId = Session["firmaId"].ToString(); }
+<div class="content-wrapper">
+    <section class="content-header">
+        <h1>  @Html.Partial("_Message")</h1>
+    </section>
+    <section class="content">
+        <div class="row" style="margin-top:10px;">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="box box-primary">
+                    <div class="box-header">
+                        <div class="row" style="margin-bottom:0px;">
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <h4><b>Firma Denetimleri</b></h4>
+                                <hr style="margin-top:0px; margin-bottom:0px;" />
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                @* @Html.ActionLink("Yeni Kullanıcı Ekle", "Create", new { @class = "btn btn-default btn-flat" })*@
+                                <a href="/Kullanici/CreateDenetim" class="btn btn-success btn-flat pull-right fa fa-plus"> Denetim </a>
+                                @Html.ActionLink(" Geri Dön", "IndexKullanici", new { }, new { @class = "btn btn-warning btn-flat fa fa-reply  pull-right" })
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1 col-sm-3 col-xs-5">
+                                @if (!string.IsNullOrWhiteSpace(@Model.resimSrc))
+                                {
+                            <a href="@Model.resimSrc">
+                                <img src="@Model.resimSrc" class="profile-user-img  img-circle" height="100" width="100" />
+                            </a> }
+                            else
+                            {
+                            <img src="../../Content/adminlte/img/noImage4.png" class="profile-user-img  img-circle" />
+                            }
+                            </div>
+                            <div class="col-md-11 col-sm-9 col-xs-8">
+                                <h5>&nbsp;&nbsp; VKN/TCKN : <span style="font-size:large" class="badge bg-aqua">@Model.VKNTCKN</span></h5>
+                                <h5>&nbsp;&nbsp; UNVAN : <span style="font-size:large" class="badge bg-aqua">@Model.UNVAN</span> </h5>
+                            </div>
+                      
+                        </div>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="">
+                        <table id="denetimTbl" class="table table-bordered table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th style="width:30px">S.NO</th>
+                                    <th>YIL</th>
+                                    <th>DÖNEM/AY</th>
+                                    <th>AD</th>
+                                    <th></th>
+                                    <th></th>
+                                    <th>TARIH</th>
+                                    <th>KAPSAM</th>
+                                    <th style="width:350px">ALT KAPSAM</th>
+                                    <th>SÜRE</th>
+                                    <th>MALİYET</th>
+                                    <th>ÇALIŞAN KURAL</th>
+                                    <th>SİL</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{int RowNo = 0;}
+                                @foreach (var item in Model.denetimList.OrderByDescending(m=>m.TARIH))
+                                {
+                                <tr>
+                                    <td style=""> @{RowNo++;} @RowNo</td>
+                                    <td> @Html.DisplayFor(modelItem => item.yilAd)</td>
+                                    <td> @Html.DisplayFor(modelItem => item.donemAy)</td>
+                                    <td> @Html.DisplayFor(modelItem => item.AD)</td>
+                                    @if (item.DURUM == 0)
+                                    {
+                                        <td>@Html.ActionLink("Defter Yükle", "EditDenetim", new { id = item.LOGICALREF }, new { @class = "btn btn-warning" })</td> 
+                                    }
+                                    else
+                                    {
+                                        <td>@Html.ActionLink("Defter Yükle", "EditDenetim", new { id = item.LOGICALREF }, new { @class = "btn btn-warning disabled" })</td>
+                                    }
+                                    @if (item.DURUM == 1)
+                                    {
+                                        <td>@Html.ActionLink("Raporlar", "Rapor", new { denetimId = item.LOGICALREF }, new { @class = "btn btn-success" })</td> 
+                                    }
+                                    else
+                                    {
+                                        <td>@Html.ActionLink("Raporlar", "Rapor", new { denetimId = item.LOGICALREF }, new { @class = "btn btn-success disabled" })</td>
+                                    }
+                                    <td> @Html.DisplayFor(modelItem => item.TARIH)</td>
+                                    <td>
+                                        <p>
+                                            @foreach (var kapsam in item.kapsamList)
+                                            {
+                                                if (@kapsam.KISA_AD.Equals("PD"))
+                                                { <span style="font-size:smaller" class="label label-success">(@kapsam.KISA_AD) @kapsam.AD</span> }
+                                                if (@kapsam.KISA_AD.Equals("GVD"))
+                                                { <span style="font-size:smaller" class="label label-danger">(@kapsam.KISA_AD) @kapsam.AD</span> }
+                                                if (@kapsam.KISA_AD.Equals("AVD"))
+                                                { <span style="font-size:smaller" class="label label-primary">(@kapsam.KISA_AD) @kapsam.AD</span> }
+                                                if (@kapsam.KISA_AD.Equals("HD"))
+                                                { <span style="font-size:smaller" class="label label-default">(@kapsam.KISA_AD) @kapsam.AD</span>}
+                                            }
+                                        </p>                                       
+                                    </td>
+                                    @*<td style="white-space: nowrap;">*@
+                                    <td>
+                                        @foreach (var altKapsam in item.altKapsamList)
+                                        {<span style="font-size:smaller" class="badge bg-light-blue-active">@altKapsam.AD</span>}
+                                    </td>
+                                    <td> @Html.DisplayFor(modelItem => item.SURE)</td>
+                                    <td> @Html.DisplayFor(modelItem => item.KONTOR_SAYISI) Kontör</td>
+                                    <td> @Html.DisplayFor(modelItem => item.KURAL_SAYISI) </td>
+                                    @*<td>
+                                    @foreach (var yevmiyeDefterAd in item.yevmiyeDefterAdList)
+                                    {<span class="badge bg-light-blue">@yevmiyeDefterAd.YEVMIYE_DEFTER_AD</span>}</td>*@
+                                    <td>
+                                     @*   @Html.CheckBoxFor(modelItem => item.kullanimDurumuBool, new { @class = "ConfirmUpdate", id = item.LOGICALREF, data_url = Url.Action("GuncelleDenetimDurum", "Kullanici") })*@
+                                   <a href="#" class="btn btn-danger fa fa-trash" onclick="ConfirmDelete('@item.LOGICALREF')" > SİL</a>
+                                    </td>
+                                 </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.box-body -->
+                </div>
+                <!-- /.box -->
+            </div>
+            <!-- /.col -->
+        </div>
+    </section>
+    <div class="modal modal-warning fade" id="modal-warning">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">İşlem Onayı</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Denetimi Silmek İstediğinizden Emin misiniz?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button"  class="btn btn-outline pull-left fa fa-close" data-dismiss="modal"> Vazgeç</button>
+                    <button type="button" onclick="Update()" class="btn btn-outline fa fa-trash"> Sil</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <input type="hidden" id="hiddenId" />
+</div>
+@section Scripts
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#denetimTbl').DataTable({
+                "scrollX": true
+            });
+        });
+
+        //$(function () {
+        //    $('.ConfirmUpdate').change(function () {
+        //        var self = $(this);
+        //        var id = self.attr('id');
+        //        $("#hiddenId").val(id);
+        //        $("#modal-warning").modal('show');
+        //    });
+        //});
+
+        function ConfirmDelete(id) {
+            $("#hiddenId").val(id);
+            $("#modal-warning").modal('show');
+        }
+
+        function Update() {
+            var id = $("#hiddenId").val();
+            $.ajax({
+                type: "GET",
+                url: "/Kullanici/GuncelleDenetimDurum",
+                data: {
+                    id: id
+                },
+                success: function (result) {
+                    $("#modal-warning").modal("hide");
+                    //location.href = '/Kullanici/FirmaDenetimleri?firmaId=@Session["firmaId"].ToString()';
+                    location.reload(true)
+                }
+            })
+        }
+    </script>
+
+}
+
+

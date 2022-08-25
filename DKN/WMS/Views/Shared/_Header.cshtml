@@ -1,0 +1,153 @@
+﻿@{ var ad = Session["AD"];
+    var soyad = Session["SOYAD"];
+    var email = Session["EMAIL"];
+    var telefon = Session["TELEFON"];
+    }
+
+<header class="main-header">
+    <!-- Logo -->
+    <a href="@Url.Action("HomeIndex", "Home")" class="logo">
+        <!-- mini logo for sidebar mini 50x50 pixels -->
+        @*<span class="logo-mini">DKN</span>*@
+        <span class="logo-mini"><img src="~/Content/adminlte/img/dkn96x96.png" width="50" height="50" /></span>
+        <!-- logo for regular state and mobile devices -->
+        <span class="logo-lg"><img src="~/Content/adminlte/img/dkn96x96.png" width="50" height="50" /><b>NETDENET</b> </span>
+    </a>
+    <!-- Header Navbar: style can be found in header.less -->
+    <nav class="navbar navbar-static-top">
+        <!-- Sidebar toggle button-->
+        <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+            <span class="sr-only">Toggle navigation</span>
+        </a>
+        <div class="navbar-custom-menu">
+
+            <ul class="nav navbar-nav">
+
+                <li>
+                    <a href="/Kullanici/Bildirim/" >
+                        <i class="fa fa-bell-o"></i>
+                        <i style="color:#3D8DBC">. </i>
+                        <span class="label label-warning" style="font-size:small">@Session["BILDIRIM_SAYISI"].ToString()</span>
+
+                    </a>
+                </li>
+
+                <li class="step-kontor">
+                    <a href="/Kullanici/KontorGecmisi/">
+                        <i class="fa fa-money"> Bakiye </i>
+                        <i style="color:#3D8DBC"> ...... </i>
+                        <span class="label label-danger" style="font-size:small">@Session["BAKIYE"].ToString()</span>
+                    </a>
+                </li>
+                <li class="dropdown user user-menu step-hesapBilgileri">
+                    @if (Session["RESIM"] != null)
+                    {
+                        if (!string.IsNullOrWhiteSpace(Session["RESIM"].ToString()))
+                        {
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <img src="@Session["RESIM"].ToString()" class="user-image" alt="User Image">
+                <span>@ad @soyad</span>
+            </a> }
+                            else
+                            {
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <img src="../../Content/adminlte/img/noImage.jpeg" class="user-image" alt="User Image">
+                <span>@ad @soyad</span>
+            </a> }
+                        }
+                        else
+                        {
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <img src="../../Content/adminlte/img/noImage.jpeg" class="user-image" alt="User Image">
+                <span>@ad @soyad</span>
+            </a>}
+
+                    <ul class="dropdown-menu">
+                        <!-- User image -->
+                        <li class="user-header">
+                            @if (Session["RESIM"] != null)
+                            {
+                                if (!string.IsNullOrWhiteSpace(Session["RESIM"].ToString()))
+                                {
+                <img src="@Session["RESIM"].ToString()" class="img-circle" alt="User Image"> }
+            else
+            {
+            <img src="../../Content/adminlte/img/noImage.jpeg" class="img-circle" alt="User Image"> }
+                        }
+                        else
+                        {
+            <img src="../../Content/adminlte/img/noImage.jpeg" class="img-circle" alt="User Image">}
+                            <p>
+                                <span>@email</span>
+                                <span>@telefon</span>
+                            </p>
+                        </li>
+                        <br />
+                        <center><a href="/GirisYap/Hesabim" style="font-size:medium"><u>Hesap Ayarları</u></a></center>
+                        <br />
+                        <!-- Menu Footer-->
+                        <li class="user-footer">
+                            <div>
+                                @Html.ActionLink("ŞİFRE DEĞİŞTİR", "SifreDegistir", "GirisYap", new { }, new { @class = "btn btn-default fa fa-key pull-left" })
+
+                            </div>
+                            <div>
+                                <button onclick="ConfirmLogout()" class=" btn btn-danger fa fa-power-off pull-right"> ÇIKIŞ</button>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Control Sidebar Toggle Button -->
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<div class="modal modal-warning fade" id="modalLogaout">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title">İşlem Onayı</h4>
+            </div>
+            <div class="modal-body">
+                <p>Sistemden Çıkış Yapmak İstediğinizden Emim misiniz?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline pull-left fa fa-close" data-dismiss="modal"> Vazgeç</button>
+                <button type="button"  onclick="CıkısYap()" class="btn btn-outline fa fa-sign-out"> Çıkış Yap</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    //Confirm Dialog için kullanılan script
+    function ConfirmLogout() {
+        $("#modalLogaout").modal('show');
+
+    }
+
+    function CıkısYap() {
+
+        $.ajax({
+
+            type: "GET",
+            url: "/GirisYap/Logout",
+            success: function (result) {
+                $("#modalLogaout").modal("hide");
+                location.reload(true);
+            }
+
+        })
+
+    }
+
+
+  
+</script>
+

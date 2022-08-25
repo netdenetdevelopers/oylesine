@@ -1,0 +1,112 @@
+﻿@model DKN.Models.BILDIRIM
+
+@{ ViewBag.Title = "Bildirim Listesi";
+    Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            @Html.Partial("_Message")
+        </h1>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        <div class="row" style="margin-top:10px;">
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title"><b>Bildirim Detay</b></h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body no-padding">
+                    <div class="mailbox-read-info">
+                        <h3>@Model.ACIKLAMA_KISA</h3>
+                        <h5>
+                            <span class="mailbox-read-time pull-right">@Model.TARIH</span>
+                        </h5>
+                    </div>
+                    <!-- /.mailbox-read-info -->
+                    <div class="mailbox-controls with-border text-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-danger btn-sm" onclick="ConfirmDelete('@Model.LOGICALREF')" data-toggle="tooltip" data-container="body" title="Sil">
+                                <i class="fa fa-trash-o"></i>
+                            </button>
+
+                        </div>
+                        <a href="/Kullanici/Bildirim" type="button" class="btn btn-warning btn-sm" data-toggle="tooltip" data-container="body" title="Geri Dön">
+                            <i class="fa fa-reply"></i>
+                        </a>
+                    </div>
+                    <!-- /.mailbox-controls -->
+                    <div class="mailbox-read-message">
+                        <p>Merhaba @Session["AD"].ToString()</p>
+                        <p>
+                            @Html.Raw(@Model.ACIKLAMA_UZUN)
+                        </p>
+                        
+                    </div>
+                    <!-- /.mailbox-read-message -->
+                </div>
+            </div>
+
+        </div>
+        <!-- /.row -->
+    </section>
+    <div class="modal modal-warning fade" id="modal-warning">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">İşlem Onayı</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Bildirimi Silmek İstediğinizden Emin misiniz?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline pull-left fa fa-close" data-dismiss="modal"> Vazgeç</button>
+                    <button type="button" onclick="Update()" class="btn btn-outline fa fa-trash"> Sil</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <input type="hidden" id="hiddenId" />
+</div>
+<!-- /.content-wrapper -->
+@section Scripts
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#bildirimTbl').DataTable({
+                "scrollX": true
+            });
+        });
+        function ConfirmDelete(id) {
+            $("#hiddenId").val(id);
+            $("#modal-warning").modal('show');
+        }
+        function Update() {
+            var id = $("#hiddenId").val();
+            $.ajax({
+                type: "GET",
+                url: "/Kullanici/SilBildirim",
+                data: {
+                    id: id
+                },
+                success: function (result) {
+                    $("#modal-warning").modal("hide");
+                    location.href = '/Kullanici/Bildirim';
+                }
+            })
+        }
+    </script>
+
+}
+
+
+
+

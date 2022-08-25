@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\obj\Release\Package\PackageTmp" />
+  <setAcl path="D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

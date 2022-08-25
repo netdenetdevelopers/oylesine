@@ -1,0 +1,15 @@
+﻿@{ ViewBag.Title = "Rapor Listele";
+    Layout = "~/Views/Shared/_LayoutReport.cshtml";
+}
+
+<div class="content-wrapper">
+    <section class="content">
+        <div class="row">
+            @Html.DevExpress().ReportDesigner(settings =>
+                {
+                settings.Name = "ReportDesigner";
+                }).Bind(new DevExpress.XtraReports.UI.XtraReport()).GetHtml()
+        </div>
+    </section>
+</div>
+

@@ -1,0 +1,71 @@
+﻿@model IEnumerable<DKN.Models.KONTOR>
+@{ ViewBag.Title = "Kontör Satın Al";
+    Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>  @Html.Partial("_Message")</h1>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+            <div class="row margin">
+                <div class="form-group">
+                    <div class="row">
+                        @foreach (var item in Model)
+                        {
+            <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
+                <div class="box box-warning box-solid">
+                    <div class="box-header with-border">
+                        @*<span class="fa fa-stack-overflow"></span>*@
+                        <center><h3 class="box-title" style="font-size:x-large">@item.KONTOR_ADET KONTÖR</h3></center>
+                        <!-- /.box-tools -->
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-12 col-xs-12 col-lg-8">
+                                <ul style="font-size:large">
+                                    <li>
+                                        <p>Paket Fiyatı: @item.PAKET_FIYATI <span class="fa fa-try"></span></p>
+
+                                    </li>
+                                    <li>
+                                        <p>Birim Fiyatı: @item.BIRIM_FIYATI <span class="fa fa-try"></span></p>
+                                    </li>
+                                    @if (item.INDIRIM_ORANI != 0)
+                                    {
+                    <li>
+                        <p class="pull-left" style="color:red">İndirim Oranı: %@item.INDIRIM_ORANI</p>
+                    </li> }
+                                    else
+                                    {
+                                        <br />
+                                    }
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- /.box-body -->
+                    <div class="small-box-footer" style="background-color:lightgrey; height:40px;">
+                        <center>@item.ACIKLAMA</center> 
+                    </div>
+                    <div class="small-box-footer" style="background-color:lightgrey;">
+                        <center>@Html.ActionLink(" Satın Al", "Iyzico", new { id = item.LOGICALREF }, new { @class = "btn btn-block btn-primary btn-lg fa fa-credit-card", @style = "font-size:x-large" })</center>
+                    </div>
+                </div> <!-- /.box -->
+
+            </div>}
+                    </div>
+
+                </div>
+
+            </div>
+    </section>
+    <!-- /.content -->
+
+</div>
+

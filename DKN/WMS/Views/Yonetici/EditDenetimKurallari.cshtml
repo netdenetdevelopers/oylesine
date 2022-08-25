@@ -1,0 +1,116 @@
+﻿@model DKN.Models.DENETIM_KURALLARI
+@using MvcCheckBoxList.Model
+
+@{ ViewBag.Title = "Denetim Kuralı Güncelleme";
+    Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1> @Html.Partial("_Message")</h1>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-6 col-md-offset-3">
+                <!-- general form elements -->
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+                        <h3 class="box-title fa fa-user-circle-o"><b>Denetim Kuralı Güncelleme Sayfası</b></h3>
+                    </div>
+
+                    @using (Html.BeginForm("EditDenetimKurallari", "Yonetici", FormMethod.Post))
+                    {
+                        @Html.AntiForgeryToken()
+                        <div class="box-body">
+                            <div class="form-group">
+                                <label>KOD</label>
+                                @Html.TextBoxFor(m => m.KOD, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.KOD, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="form-group">
+                                <label>AÇIKLAMA</label>
+                                @Html.TextAreaFor(m => m.ACIKLAMA, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.ACIKLAMA, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="form-group">
+                                <label>MÜŞTERİ AÇIKLAMA</label>
+                                @Html.TextAreaFor(m => m.MUSTERI_ACIKLAMA, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.MUSTERI_ACIKLAMA, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="form-group">
+                                <label>MÜŞTERİ AÇIKLAMA2</label>
+                                @Html.TextBoxFor(m => m.MUSTERI_ACIKLAMA2, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.MUSTERI_ACIKLAMA2, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="form-group">
+                                <label>MEVZUAT</label>
+                                @Html.TextBoxFor(m => m.MEVZUAT, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.MEVZUAT, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <span class="badge bg-light-blue">Kural Kapsamları</span>
+                                    <hr style="margin-top:5px; margin-bottom:5px;" />
+                                    <div class="form-group">
+
+                                        @Html.CheckBoxListFor(model => model.postedIds.kapsamIds,
+                                                                                                    model => model.kapsamList,
+                                                                                                    model => model.LOGICALREF,
+                                                                                                    model => model.AD,
+                                                                                                    model => model.selectedKapsamList,
+                                                                                                    Position.Vertical)
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <span class="badge bg-light-blue-active">Alt Kural Kapsamları</span>
+                                    <hr style="margin-top:5px; margin-bottom:5px;" />
+                                    <div class="form-group">
+
+                                        @Html.CheckBoxListFor(model => model.postedIds.altKapsamIds,
+                                                                                                    model => model.altKapsamList,
+                                                                                                    model => model.LOGICALREF,
+                                                                                                    model => model.AD,
+                                                                                                    model => model.selectedAltKapsamList,
+                                                                                                    Position.Vertical)
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" style="margin:5px">
+                                <div class="row" style="margin:5px">
+                                    <div class="form-group col-md-4 col-sm-4 col-xs-4">
+                                        <label> Kullanım Durumu</label>
+                                        @Html.CheckBoxFor(model => model.kullanimDurumuBool, new { @class = "icheck-primary", @id = "kullanimDurumu" })
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- /.box-body -->
+                        <div class="box-footer">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <button type="submit" class="btn btn-primary pull-left fa fa-user-plus"> Güncelle </button>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="/Yonetici/KuralListesi" class="btn btn-primary pull-right fa fa-share"> Kural Listesine Dön</a>
+                                </div>
+                            </div>
+                        </div>
+                     }
+                </div>
+            </div>
+            <!--/.col (left) -->
+        </div>
+        <!-- /.row -->
+    </section>
+    <!-- /.content -->
+</div>
+
+
+
+
+
+

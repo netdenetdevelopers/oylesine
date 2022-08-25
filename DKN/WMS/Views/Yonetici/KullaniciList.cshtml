@@ -1,0 +1,188 @@
+﻿@model IEnumerable<DKN.Models.KULLANICI>
+
+@{ ViewBag.Title = "Kullanıcı Listesi";
+                Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            @Html.Partial("_Message")
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="/Home/HomeIndex"><i class="fa fa-dashboard"></i> Menü</a></li>
+            <li><a href="/Home/HomeIndex">Yönetici</a></li>
+            <li class="active">Kullanıcı Listesi</li>
+        </ol>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        <div class="row" style="margin-top:10px;">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="box box-primary">
+                    <div class="box-header">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <h4><b>KULLANICI LİSTESİ</b></h4>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 col-md-push-4">
+                                <label>
+                                    @* @Html.ActionLink("Yeni Kullanıcı Ekle", "Create", new { @class = "btn btn-default btn-flat" })*@
+                                    <a href="/Yonetici/Create" class="btn btn-success btn-flat fa fa-plus"> Kullanıcı</a>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="">
+                        <table id="kullaniciTbl" class="table table-bordered table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th style="width:30px">S.NO</th>
+                                    <th>RESIM</th>
+                                    <th>EMAIL</th>
+                                    <th>AD</th>
+                                    <th>SOYAD</th>
+                                    <th>TELEFON</th>
+                                    @*<th>ROLLER</th>*@
+                                    <th>AKTİF/PASİF</th>
+                                    <th>ADMİN Mİ?</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{int RowNo = 0;}
+                                @foreach (var item in Model)
+                                {
+                                <tr>
+                                    <td style=""> @{RowNo++;} @RowNo</td>
+                                    <td>
+                                        <form enctype="multipart/form-data">
+                                            <div class="form-group">
+                                                @if (!string.IsNullOrWhiteSpace(@item.resimSrc))
+                                                {
+                                                <a href="@item.resimSrc">
+                                                    <img class="profile-user-img img-responsive img-circle"  src="@item.resimSrc" height="100" width="200" />
+                                                </a> 
+                                                  }
+                                                else
+                                                {
+                                                <img class="profile-user-img img-responsive img-circle"  src="../../Content/adminlte/img/noImage.jpeg" />
+                                                }
+                                            </div>
+                                        </form>
+                                    </td>
+                                    <td> @Html.ActionLink(item.EMAIL, "Edit", new { id = item.LOGICALREF.ToString() })</td>
+                                    <td> @Html.DisplayFor(modelItem => item.AD)</td>
+                                    <td> @Html.DisplayFor(modelItem => item.SOYAD)</td>
+                                    <td> @Html.DisplayFor(modelItem => item.TELEFON)</td>
+
+                                    <td>
+                                        @Html.CheckBoxFor(modelItem => item.kullanimDurumuBool, new { @class = "ConfirmUpdate", id = item.LOGICALREF, data_url = Url.Action("GuncelleKullaniciDurum", "Kullanicilar") })
+                                    </td>
+                                    <td>
+                                        @Html.CheckBoxFor(modelItem => item.adminMiBool, new { @disabled = "disabled" })
+                                    </td>
+                                </tr>}
+
+                            </tbody>
+
+                        </table>
+                    </div>
+                    <!-- /.box-body -->
+                </div>
+                <!-- /.box -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </section>
+    <!-- /.content -->
+    <div class="modal modal-warning fade" id="modal-warning">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">İşlem Onayı</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Kaydın Durumunu Değiştirmek İstediğinizden Emin misiniz?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" onclick="location.reload(true)" class="btn btn-outline pull-left fa fa-close" data-dismiss="modal"> Vazgeç</button>
+                    <button type="button" onclick="Update()" class="btn btn-outline fa fa-edit"> Güncelle</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+
+
+    <input type="hidden" id="hiddenId" />
+</div>
+<!-- /.content-wrapper -->
+@section Scripts
+{
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#kullaniciTbl').DataTable({
+                'paging': true,
+                'lengthChange': false,
+                'searching': true,
+                'ordering': true,
+                'info': true,
+                'autoWidth': true,
+                "scrollX": true
+            })
+        })
+
+
+        // confirm dialog için kullanılan script
+        $(function () {
+            $('.ConfirmUpdate').change(function () {
+                var self = $(this);
+                var id = self.attr('id');
+                $("#hiddenId").val(id);
+                // alert(id);
+                $("#modal-warning").modal('show');
+
+
+            });
+        });
+
+        function Update() {
+            var id = $("#hiddenId").val();
+
+            $.ajax({
+
+                type: "GET",
+                url: "/Yonetici/GuncelleKullaniciDurum",
+                data: {
+                    id: id
+                },
+                success: function (result) {
+
+                    $("#modal-warning").modal("hide");
+                    // location.reload(true);
+                    //$("#row_" + Id).remove();
+
+                }
+
+            })
+
+        }
+
+        function Goster(id) {
+            $('#' + id).show();
+        }
+
+        function Gizle(id) {
+            $('#' + id).hide();
+        }
+    </script>
+
+}

@@ -1,0 +1,824 @@
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DKN.dll.config
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DKN.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DKN.pdb
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\csc.exe
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\csc.exe.config
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\csc.rsp
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\csi.exe
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\csi.exe.config
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\csi.rsp
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.AppContext.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.Collections.Immutable.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.Console.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.Globalization.Calendars.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.IO.Compression.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.IO.FileSystem.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.Net.Http.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.Net.Sockets.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.ValueTuple.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.Xml.XPath.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\vbc.exe
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\vbc.exe.config
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\vbc.rsp
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\VBCSCompiler.exe
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\roslyn\VBCSCompiler.exe.config
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\Antlr3.Runtime.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\BouncyCastle.Crypto.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\Csv.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Charts.v20.2.Core.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.CodeParser.v20.2.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Data.v20.2.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.DataAccess.v20.2.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Office.v20.2.Core.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Pdf.v20.2.Core.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.PivotGrid.v20.2.Core.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Printing.v20.2.Core.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.RichEdit.v20.2.Core.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.RichEdit.v20.2.Export.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Sparkline.v20.2.Core.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Utils.v20.2.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.ASPxThemes.v20.2.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.Mvc5.v20.2.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.Resources.v20.2.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.v20.2.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Xpo.v20.2.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.XtraCharts.v20.2.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.XtraGauges.v20.2.Core.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.XtraReports.v20.2.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.XtraReports.v20.2.Web.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.XtraReports.v20.2.Web.WebForms.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\FluentFTP.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\Microsoft.DotNet.PlatformAbstractions.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\Microsoft.Extensions.DependencyModel.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\Microsoft.Web.Infrastructure.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\MvcCheckBoxList.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\Newtonsoft.Json.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\SdkApi.Core.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\SdkApi.Desktop.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\SdkApi.Desktop.Usb.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\SharpSnmpLib.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\System.Web.Helpers.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\System.Web.Http.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\System.Web.Http.WebHost.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\System.Web.Mvc.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\System.Web.Optimization.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\System.Web.Razor.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\System.Web.WebPages.Deployment.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\System.Web.WebPages.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\System.Web.WebPages.Razor.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\WebGrease.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ZebraPrinterSdk.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Pdf.v20.2.Drawing.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Data.Desktop.v20.2.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.ASPxHtmlEditor.v20.2.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.ASPxDiagram.v20.2.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.XtraCharts.v20.2.Web.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.ASPxGantt.v20.2.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.ASPxTreeList.v20.2.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.ASPxSpellChecker.v20.2.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.ASPxPivotGrid.v20.2.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.ASPxRichEdit.v20.2.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.ASPxScheduler.v20.2.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.Desktop.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.SpellChecker.v20.2.Core.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.ASPxSpreadsheet.v20.2.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Spreadsheet.v20.2.Core.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.DataVisualization.v20.2.Core.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Images.v20.2.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\BouncyCastle.Crypto.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\Csv.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Data.v20.2.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.DataAccess.v20.2.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Office.v20.2.Core.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Pdf.v20.2.Core.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.PivotGrid.v20.2.Core.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Printing.v20.2.Core.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.RichEdit.v20.2.Core.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Sparkline.v20.2.Core.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Utils.v20.2.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.Mvc5.v20.2.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.v20.2.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Xpo.v20.2.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.XtraCharts.v20.2.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.XtraGauges.v20.2.Core.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.XtraReports.v20.2.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.XtraReports.v20.2.Web.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.XtraReports.v20.2.Web.WebForms.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\FluentFTP.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\SdkApi.Core.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\SdkApi.Desktop.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\System.Web.Http.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\System.Web.Http.WebHost.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\System.Web.Helpers.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\System.Web.Mvc.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\System.Web.Optimization.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\System.Web.Razor.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\System.Web.WebPages.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\System.Web.WebPages.Deployment.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\System.Web.WebPages.Razor.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\Newtonsoft.Json.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\Antlr3.Runtime.pdb
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ZebraPrinterSdk.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Pdf.v20.2.Drawing.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Data.Desktop.v20.2.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.ASPxHtmlEditor.v20.2.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.ASPxDiagram.v20.2.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.XtraCharts.v20.2.Web.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.ASPxGantt.v20.2.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.ASPxTreeList.v20.2.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.ASPxSpellChecker.v20.2.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.ASPxPivotGrid.v20.2.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.ASPxRichEdit.v20.2.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.ASPxScheduler.v20.2.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.Desktop.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.SpellChecker.v20.2.Core.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Web.ASPxSpreadsheet.v20.2.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\DevExpress.Spreadsheet.v20.2.Core.xml
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.Data.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.Data.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.Data.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.Data.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.DataAccess.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.DataAccess.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.DataAccess.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.DataAccess.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.Office.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.Office.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.Office.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.Office.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.PivotGrid.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.PivotGrid.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.PivotGrid.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.PivotGrid.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.Printing.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.Printing.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.Printing.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.Printing.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.Utils.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.Utils.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.Utils.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.Utils.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.Web.Resources.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.Web.Resources.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.Web.Resources.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.Web.Resources.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.Web.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.Web.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.Web.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.Web.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.Xpo.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.Xpo.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.Xpo.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.Xpo.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.XtraCharts.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.XtraCharts.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.XtraCharts.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.XtraCharts.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.XtraGauges.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.XtraGauges.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.XtraGauges.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.XtraGauges.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.XtraReports.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.XtraReports.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.XtraReports.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.XtraReports.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.XtraReports.v20.2.Web.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.XtraReports.v20.2.Web.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.XtraReports.v20.2.Web.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.XtraReports.v20.2.Web.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\de\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\es\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ja\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\bin\ru\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\obj\Release\DKN.csprojAssemblyReference.cache
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\obj\Release\DKN.dll.licenses
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\obj\Release\DKN.csproj.CoreCompileInputs.cache
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\obj\Release\DKN.csproj.CopyComplete
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\obj\Release\DKN.dll
+C:\visualStudioProjeleri\visualStudio2019\MVC\DKN\WMS\obj\Release\DKN.pdb
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\DKN.dll.config
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\DKN.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\DKN.pdb
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\csc.exe
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\csc.exe.config
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\csc.rsp
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\csi.exe
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\csi.exe.config
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\csi.rsp
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\Microsoft.Managed.Core.targets
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.AppContext.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.Collections.Immutable.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.Console.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.Globalization.Calendars.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.IO.Compression.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.IO.FileSystem.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.Net.Http.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.Net.Sockets.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.Reflection.Metadata.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.ValueTuple.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.Xml.XmlDocument.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.Xml.XPath.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\vbc.exe
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\vbc.exe.config
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\vbc.rsp
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\VBCSCompiler.exe
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\roslyn\VBCSCompiler.exe.config
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\Antlr3.Runtime.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\BouncyCastle.Crypto.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\Csv.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\FluentFTP.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\Microsoft.DotNet.PlatformAbstractions.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\Microsoft.Extensions.DependencyModel.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\Microsoft.Web.Infrastructure.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\MvcCheckBoxList.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\Newtonsoft.Json.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\SdkApi.Core.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\SdkApi.Desktop.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\SdkApi.Desktop.Usb.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\SharpSnmpLib.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Web.Helpers.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Web.Http.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Web.Http.WebHost.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Web.Mvc.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Web.Optimization.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Web.Razor.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Web.WebPages.Deployment.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Web.WebPages.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Web.WebPages.Razor.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\WebGrease.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\ZebraPrinterSdk.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\BouncyCastle.Crypto.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\Csv.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\FluentFTP.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\SdkApi.Core.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\SdkApi.Desktop.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Web.Http.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Web.Http.WebHost.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Web.Helpers.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Web.Mvc.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Web.Optimization.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Web.Razor.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Web.WebPages.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Web.WebPages.Deployment.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Web.WebPages.Razor.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\Newtonsoft.Json.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\Antlr3.Runtime.pdb
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\ZebraPrinterSdk.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\obj\Release\DKN.csprojAssemblyReference.cache
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\obj\Release\DKN.dll.licenses
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\obj\Release\DKN.csproj.CoreCompileInputs.cache
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\obj\Release\DKN.csproj.CopyComplete
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\obj\Release\DKN.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\obj\Release\DKN.pdb
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\Iyzipay.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\RestSharp.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Buffers.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Memory.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Numerics.Vectors.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Text.Encodings.Web.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Text.Json.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Threading.Tasks.Extensions.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.ValueTuple.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\RestSharp.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Buffers.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Memory.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Numerics.Vectors.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Text.Encodings.Web.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Text.Json.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.Threading.Tasks.Extensions.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN\WMS\bin\System.ValueTuple.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DKN.dll.config
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DKN.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DKN.pdb
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\csc.exe
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\csc.exe.config
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\csc.rsp
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\csi.exe
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\csi.exe.config
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\csi.rsp
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.AppContext.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.Console.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.IO.Compression.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.Net.Http.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.ValueTuple.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\vbc.exe
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\vbc.exe.config
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\vbc.rsp
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\Antlr3.Runtime.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\BouncyCastle.Crypto.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\Csv.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Charts.v20.2.Core.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.CodeParser.v20.2.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Data.v20.2.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.DataAccess.v20.2.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Office.v20.2.Core.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Pdf.v20.2.Core.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.PivotGrid.v20.2.Core.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Printing.v20.2.Core.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.RichEdit.v20.2.Core.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.RichEdit.v20.2.Export.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Sparkline.v20.2.Core.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Utils.v20.2.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.ASPxThemes.v20.2.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.Mvc5.v20.2.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.Resources.v20.2.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.v20.2.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Xpo.v20.2.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.XtraCharts.v20.2.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.XtraGauges.v20.2.Core.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.XtraReports.v20.2.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.XtraReports.v20.2.Web.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.XtraReports.v20.2.Web.WebForms.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\FluentFTP.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\Iyzipay.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\Microsoft.Extensions.DependencyModel.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\MvcCheckBoxList.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\Newtonsoft.Json.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\RestSharp.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\SdkApi.Core.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\SdkApi.Desktop.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\SdkApi.Desktop.Usb.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\SharpSnmpLib.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Buffers.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Memory.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Numerics.Vectors.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Text.Encodings.Web.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Text.Json.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.ValueTuple.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Web.Helpers.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Web.Http.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Web.Http.WebHost.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Web.Mvc.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Web.Optimization.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Web.Razor.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Web.WebPages.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\WebGrease.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ZebraPrinterSdk.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Pdf.v20.2.Drawing.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Data.Desktop.v20.2.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.ASPxHtmlEditor.v20.2.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.ASPxDiagram.v20.2.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.XtraCharts.v20.2.Web.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.ASPxGantt.v20.2.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.ASPxTreeList.v20.2.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.ASPxSpellChecker.v20.2.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.ASPxPivotGrid.v20.2.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.ASPxRichEdit.v20.2.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.ASPxScheduler.v20.2.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.Desktop.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.SpellChecker.v20.2.Core.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.ASPxSpreadsheet.v20.2.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Spreadsheet.v20.2.Core.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.DataVisualization.v20.2.Core.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Images.v20.2.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\BouncyCastle.Crypto.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\Csv.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Data.v20.2.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.DataAccess.v20.2.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Office.v20.2.Core.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Pdf.v20.2.Core.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.PivotGrid.v20.2.Core.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Printing.v20.2.Core.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.RichEdit.v20.2.Core.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Sparkline.v20.2.Core.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Utils.v20.2.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.Mvc5.v20.2.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.v20.2.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Xpo.v20.2.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.XtraCharts.v20.2.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.XtraGauges.v20.2.Core.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.XtraReports.v20.2.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.XtraReports.v20.2.Web.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.XtraReports.v20.2.Web.WebForms.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\FluentFTP.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\RestSharp.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\SdkApi.Core.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\SdkApi.Desktop.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Buffers.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Memory.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Numerics.Vectors.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Text.Encodings.Web.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Text.Json.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.ValueTuple.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Web.Http.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Web.Http.WebHost.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Web.Helpers.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Web.Mvc.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Web.Optimization.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Web.Razor.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Web.WebPages.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\Newtonsoft.Json.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\Antlr3.Runtime.pdb
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ZebraPrinterSdk.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Pdf.v20.2.Drawing.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Data.Desktop.v20.2.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.ASPxHtmlEditor.v20.2.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.ASPxDiagram.v20.2.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.XtraCharts.v20.2.Web.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.ASPxGantt.v20.2.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.ASPxTreeList.v20.2.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.ASPxSpellChecker.v20.2.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.ASPxPivotGrid.v20.2.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.ASPxRichEdit.v20.2.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.ASPxScheduler.v20.2.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.Desktop.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.XtraScheduler.v20.2.Core.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.SpellChecker.v20.2.Core.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Web.ASPxSpreadsheet.v20.2.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\DevExpress.Spreadsheet.v20.2.Core.xml
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.Data.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.Data.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.Data.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.Data.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.DataAccess.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.DataAccess.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.DataAccess.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.DataAccess.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.Office.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.Office.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.Office.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.Office.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.PivotGrid.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.PivotGrid.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.PivotGrid.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.PivotGrid.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.Utils.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.Utils.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.Utils.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.Utils.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.Web.Resources.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.Web.Resources.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.Web.Resources.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.Web.Resources.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.Web.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.Web.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.Web.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.Web.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.Xpo.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.Xpo.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.Xpo.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.Xpo.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.XtraCharts.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.XtraCharts.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.XtraCharts.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.XtraCharts.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.XtraGauges.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.XtraGauges.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.XtraGauges.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.XtraGauges.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.XtraReports.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.XtraReports.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.XtraReports.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.XtraReports.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.XtraReports.v20.2.Web.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.XtraReports.v20.2.Web.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.XtraReports.v20.2.Web.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.XtraReports.v20.2.Web.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.Web.ASPxHtmlEditor.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.Web.ASPxDiagram.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.Web.ASPxGantt.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.Web.ASPxTreeList.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\de\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\es\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ja\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\bin\ru\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\obj\Release\DKN.csproj.AssemblyReference.cache
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\obj\Release\DKN.dll.licenses
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\obj\Release\DKN.csproj.CoreCompileInputs.cache
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\obj\Release\DKN.csproj.CopyComplete
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\obj\Release\DKN.dll
+C:\Users\ersan\Desktop\DKN_29_07_2022\DKN\WMS\obj\Release\DKN.pdb
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\DKN.dll.config
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\DKN.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\DKN.pdb
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\csc.exe
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\csc.exe.config
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\csc.rsp
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\csi.exe
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\csi.exe.config
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\csi.rsp
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\Microsoft.Managed.Core.targets
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.AppContext.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.Collections.Immutable.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.Console.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.Globalization.Calendars.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.IO.Compression.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.IO.FileSystem.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.Net.Http.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.Net.Sockets.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.Reflection.Metadata.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.ValueTuple.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.Xml.XmlDocument.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.Xml.XPath.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\vbc.exe
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\vbc.exe.config
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\vbc.rsp
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\VBCSCompiler.exe
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\roslyn\VBCSCompiler.exe.config
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\Antlr3.Runtime.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\BouncyCastle.Crypto.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\Csv.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\FluentFTP.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\Iyzipay.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\Microsoft.DotNet.PlatformAbstractions.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\Microsoft.Extensions.DependencyModel.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\Microsoft.Web.Infrastructure.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\MvcCheckBoxList.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\Newtonsoft.Json.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\RestSharp.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\SdkApi.Core.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\SdkApi.Desktop.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\SdkApi.Desktop.Usb.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\SharpSnmpLib.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Buffers.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Memory.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Numerics.Vectors.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Text.Encodings.Web.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Text.Json.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Threading.Tasks.Extensions.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.ValueTuple.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Web.Helpers.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Web.Http.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Web.Http.WebHost.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Web.Mvc.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Web.Optimization.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Web.Razor.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Web.WebPages.Deployment.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Web.WebPages.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Web.WebPages.Razor.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\WebGrease.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\ZebraPrinterSdk.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\BouncyCastle.Crypto.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\Csv.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\FluentFTP.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\RestSharp.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\SdkApi.Core.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\SdkApi.Desktop.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Buffers.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Memory.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Numerics.Vectors.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Text.Encodings.Web.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Text.Json.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Threading.Tasks.Extensions.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.ValueTuple.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Web.Http.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Web.Http.WebHost.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Web.Helpers.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Web.Mvc.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Web.Optimization.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Web.Razor.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Web.WebPages.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Web.WebPages.Deployment.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Web.WebPages.Razor.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\Newtonsoft.Json.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\Antlr3.Runtime.pdb
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\ZebraPrinterSdk.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\obj\Release\DKN.csprojAssemblyReference.cache
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\obj\Release\DKN.dll.licenses
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\obj\Release\DKN.csproj.CoreCompileInputs.cache
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\obj\Release\DKN.csproj.CopyComplete
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\obj\Release\DKN.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\obj\Release\DKN.pdb
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\SharpCompress.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Text.Encoding.CodePages.dll
+D:\İŞ YERİ\Zahid Bey\E-Defter\DKN_04_08_2022\DKN\WMS\bin\System.Text.Encoding.CodePages.xml
