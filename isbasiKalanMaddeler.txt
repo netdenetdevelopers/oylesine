@@ -1,0 +1,12 @@
+//ersan
+
+-Kendi bilgilerimizi çekip işbaşı aktarımı esnasında göndereceğiz
+
+-ERP'de cari kart açarken; şahıs şirketi, TR, e-devlet -> efatura
+-Cari kart açarken ülke kodu basmamız lazım
+-Cari Kart açarken karakter sayısına göre TC vey vergi no basılacak, TC ise şahıs şirketi basılacak
+-Cari kart açarken e-devlet sekmesindeki E-Fatura E-arşiv tipi; e-fatura olarak basılacak
+-Progress bar yerine bir tane ilerleme progress gifi bulma
+
+/////////
+aktarılanlara aktarım tarihi filtrsi eklenmesi.
